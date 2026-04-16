@@ -17,6 +17,7 @@ status: stable
 - [[投资品种/00-MOC-投资品种|投资品种]] — ETF、杠杆ETF、IUL 等
 - [[退休规划/00-MOC-退休规划|退休规划]] — 三段式框架、年金 等
 - [[中美对比/00-MOC-中美对比|中美对比]] — 双边资产策略 等
+- [[遗产规划/00-MOC-遗产规划|遗产规划]] — Revocable Trust、Beneficiary Designation 等
 
 ## 全库 Dataview 索引
 
