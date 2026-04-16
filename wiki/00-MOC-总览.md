@@ -14,9 +14,10 @@ status: stable
 
 - [[账户类型/00-MOC-账户类型|账户类型]] — Roth IRA、401K、Betterment、SGOV 等
 - [[税务策略/00-MOC-税务策略|税务策略]] — 税损收割、Wash Sale Rule 等
-- [[投资品种/00-MOC-投资品种|投资品种]] — ETF、杠杆ETF、IUL 等
+- [[投资品种/00-MOC-投资品种|投资品种]] — ETF、杠杆ETF、IUL、REITs、TDF 等
 - [[退休规划/00-MOC-退休规划|退休规划]] — 三段式框架、年金 等
-- [[中美对比/00-MOC-中美对比|中美对比]] — 双边资产策略 等
+- [[中美对比/00-MOC-中美对比|中美对比]] — 双边资产策略、FBAR、PFIC、Exit Tax 等
+- [[股权激励/00-MOC-股权激励|股权激励]] — RSU、ESPP 等
 - [[遗产规划/00-MOC-遗产规划|遗产规划]] — Revocable Trust、Beneficiary Designation 等
 
 ## 全库 Dataview 索引
