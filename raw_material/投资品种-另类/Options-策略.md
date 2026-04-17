@@ -1,4 +1,4 @@
-# Options 基础策略（Covered Call / Cash-Secured Put / Wheel）
+# Options 策略（Covered Call / Cash-Secured Put / Wheel / Risk Reversal）
 
 **收集日期：** 2026-04-16
 
@@ -190,6 +190,123 @@ Phase 3: 拿到现金 → 回到 Phase 1
 | 高分红 ETF | 3-5% | 极低 | 合格分红 15% | 被动者 |
 | Bond Ladder | 4-5% | 低 | 利息 | 退休者 |
 
+## Risk Reversal（风险逆转）
+
+### 构建方式
+
+**同时操作两端**：
+
+```
+卖出 1 份 OTM Put（较低 Strike）  → 收 premium
+买入 1 份 OTM Call（较高 Strike） → 付 premium
+                                  净成本 ≈ $0（零成本建仓）
+```
+
+**例子**：股价 $190
+
+```
+卖出 AAPL $170 Put（30天）→ 收 $3.00（$300）
+买入 AAPL $210 Call（30天）→ 付 $3.00（$300）
+净成本 = $0
+```
+
+### 三种结果
+
+| 到期时股价 | 卖的 Put | 买的 Call | 结果 |
+|---------|---------|---------|------|
+| **< $170**（大跌） | 被 Assign → 被迫买入 100 股 @$170 | 过期 | ❌ **亏损**（接盘） |
+| **$170-$210**（震荡） | 过期 | 过期 | ⚠️ **零成本零收益** |
+| **> $210**（大涨） | 过期 | 行权 → 你以 $210 买入 | ✅ **盈利**（上涨全享）|
+
+### 本质
+
+**Risk Reversal ≈ 零成本的合成多头（Synthetic Long）**：
+- 盈亏图与直接买入股票几乎相同
+- 但不需要一分钱初始资金
+- 代价：下跌时有被迫接盘的义务
+
+### 看跌版（Bearish Risk Reversal）
+
+反向构建 → 合成空头：
+```
+买入 OTM Put（看跌获利）
+卖出 OTM Call（出资买 Put）
+```
+适合看空但不想借券做空。
+
+### 适用场景
+
+| 场景 | 说明 |
+|------|------|
+| **强烈看涨但不想出资** | 零成本获得上涨 exposure |
+| **替代买入股票** | 用 margin 代替现金 |
+| **对冲已有空头** | 保护做空仓位 |
+| **Earnings 方向性押注** | 赌大幅波动方向 |
+| **机构方向性交易** | 大资金常用 |
+
+### 与其他策略对比
+
+| 策略 | 初始成本 | 上涨收益 | 下跌风险 | 适合 |
+|------|---------|---------|---------|------|
+| **买入股票** | 全额 | 无限 | 全额（但可止损） | 长期 |
+| **买入 Call** | premium | 无限 | 仅 premium | 看涨赌方向 |
+| **Cash-Secured Put** | 锁定现金 | 仅 premium | 被迫接盘 | 折价买入 |
+| **Risk Reversal** | **~$0** | **无限** | **被迫接盘** | 零成本做多 |
+| **Covered Call** | 持有股票 | 有限 | 持股风险 | 持股收租 |
+
+### 风险提示 ⚠️
+
+1. **下跌风险 = Naked Put 全部风险**
+   - 股价跌到 $0 → 理论最大亏损 = Strike × 100（如 $170 × 100 = $17,000）
+   - 但实际上有 margin call 强制平仓
+
+2. **需要 Margin 账户**
+   - 卖出 Put 是 "Naked"（无担保）→ 需要 margin
+   - Margin 要求通常为 Strike × 20-30%
+
+3. **不适合退休账户**
+   - 大多数 IRA / Roth IRA **不允许 Naked Put**
+   - Cash-Secured Put 可以，但 Risk Reversal 的 Put 端不是 cash-secured
+
+4. **波动率风险（Vega）**
+   - 两端 Vega 可能不对称
+   - 波动率上升通常对 Risk Reversal 有利（Call 涨更多）
+   - 波动率下降反之
+
+5. **早期行权风险（美式期权）**
+   - 卖出的 Put 可能在到期前被 Assign
+   - 特别是 ex-dividend 日前后
+
+### 高级变种
+
+#### Collar（领口策略）
+
+**已持有股票 + Risk Reversal 的保护版**：
+```
+持有 100 股
+买入 OTM Put（保护下跌）
+卖出 OTM Call（出资买 Put）
+= Covered Call + Protective Put
+```
+适合：已有大量集中持仓（如 EBAY、NVDA），想保护又不想出资。
+
+#### LEAPS Risk Reversal
+
+用**长期期权**（1-2 年到期）做 Risk Reversal：
+- 更多时间让观点兑现
+- Put premium 更高（收入多）
+- 但 margin 占用时间长
+
+### 税务考量
+
+- **卖出 Put（收 premium）**：短期资本利得（普通所得税率）
+- **买入 Call 行权**：持有期从行权日开始算（短期 unless 持有 >1 年）
+- **被 Assign（Put 端）**：买入股票的 cost basis = Strike - 收到的 premium
+- **在高收入年**（2026 $250k+）：短期利得 ~45% 税率 → 注意
+- **最优账户**：因为需要 margin → 只能在 Taxable 账户
+
+---
+
 ## 与其他概念的关系
 
 - [[Asset-Location]]：Options 在 Roth IRA 最优
@@ -203,4 +320,6 @@ Phase 3: 拿到现金 → 回到 Phase 1
 - [ ] `wiki/投资品种/Covered-Call.md`
 - [ ] `wiki/投资品种/Cash-Secured-Put.md`
 - [ ] `wiki/投资品种/Wheel-Strategy.md`
+- [ ] `wiki/投资品种/Risk-Reversal.md`
+- [ ] `wiki/投资品种/Collar.md`
 - [ ] `wiki/投资品种/Options-DTE选择.md`
