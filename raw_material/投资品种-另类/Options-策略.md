@@ -160,11 +160,22 @@ Phase 3: 拿到现金 → 回到 Phase 1
 - 短期利得按普通所得（最高 37% + 13.3% = 50.3%）
 - 高频 Wheel → 收入主要是短期 → **税后收益打折严重**
 
-### 最优账户
+### 最优账户 + IRA 限制（重要区分）
 
-- **IRA / Roth IRA** 内操作 Wheel → 无税务摩擦
-- 但 IRA 不能 naked options（只能 Covered Call + Cash-Secured Put）
-- Roth IRA 内 Wheel = premium **永远免税** ⭐
+**Roth IRA 可以做（⭐ 税务最优）：**
+- ✅ Covered Call（持有股票 + 卖 Call）
+- ✅ Cash-Secured Put（有现金担保 + 卖 Put）
+- ✅ Wheel Strategy（CC + CSP 循环）
+- ✅ 买入 Call / 买入 Put（方向性，仅限 premium 风险）
+
+**Roth IRA 不能做（需要 Margin）：**
+- ❌ Risk Reversal（Naked Put 端无担保）
+- ❌ Naked Call（无限风险）
+- ❌ 任何需要 Margin 的策略
+
+**结论**：
+- **Covered Call / CSP / Wheel → Roth IRA 最优**（premium 收入永远免税）⭐
+- **Risk Reversal / Naked 策略 → 只能在 Taxable Margin 账户**
 
 ## Options 策略的风险管理
 
