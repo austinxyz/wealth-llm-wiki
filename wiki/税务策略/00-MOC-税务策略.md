@@ -2,7 +2,7 @@
 title: 税务策略总览
 category: MOC
 tags: [税务策略, MOC]
-updated: 2026-04-16
+updated: 2026-04-20
 status: stable
 ---
 
@@ -24,6 +24,7 @@ status: stable
 - [[Roth-Conversion-Ladder]] — 早退休者每年转换 Traditional→Roth，5年后免税提取
 - [[QBI-Deduction]] — Section 199A，自雇/pass-through 20% 扣除，2026 永久化
 - [[DAF]] — 捐赠人建议基金，Bunching 策略 + 增值证券捐赠免资本利得税
+- [[税务调整后净资产]] — Traditional ×(1-税率)/Roth ×1/Taxable ×(1-LTCG)；退休前规划必算
 
 ## Dataview 查询
 

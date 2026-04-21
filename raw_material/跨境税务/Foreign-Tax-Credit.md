@@ -207,6 +207,11 @@ FTC 上限 = $18,000 × ($30,000 / $100,000) = $5,400
 
 ## 待提炼为 wiki 条目
 
-- [ ] `wiki/中美对比/Foreign-Tax-Credit.md`
-- [ ] `wiki/中美对比/FTC-vs-FEIE选择.md`
-- [ ] `wiki/中美对比/FTC简化规则.md`
+**已提炼（2026-04-20）**：
+
+- [x] `wiki/中美对比/Foreign-Tax-Credit.md` — 限制公式 + 5 个 category + 4 个中国场景 + Re-source 协定条款
+- [x] `wiki/中美对比/FTC-vs-FEIE选择.md` — 适用范围对比 + 居住要求 + 4 种典型路径 + FEIE 5 年禁区
+- [x] `wiki/中美对比/FTC简化规则.md` — $300/$600 4 个条件 + 决策树 + 与 1099-DIV Box 6 对应
+
+**MOC 更新**：
+- [x] `wiki/中美对比/00-MOC-中美对比.md` 加入 3 条

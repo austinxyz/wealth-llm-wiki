@@ -1,4 +1,4 @@
-# wealth-llm-wiki
+/# wealth-llm-wiki
 
 个人财富规划知识库，灵感来自 [Karpathy 的 LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)，采用三层架构：**原始资料 → 提炼知识 → 个人策略**。
 

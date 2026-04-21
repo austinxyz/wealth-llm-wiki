@@ -1,0 +1,51 @@
+services:
+  quartz:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: wealth-quartz
+    restart: unless-stopped
+    ports:
+      # 默认：NAS 部署（所有内网接口 + 端口 8888）
+      # 本地测试：通过 .env 覆盖为 127.0.0.1:8888
+      - "${BIND_IP:-0.0.0.0}:${WEB_PORT:-8888}:8080"
+    volumes:
+      # 内容目录（只读挂载）
+      # 默认：NAS 路径 /volume1/docker/wealth/content/
+      # 本地测试：通过 .env 覆盖为 Windows 路径
+      - ${RAW_MATERIAL_PATH:-/volume1/docker/wealth/content/raw_material}:/app/content/raw_material:ro
+      - ${WIKI_PATH:-/volume1/docker/wealth/content/wiki}:/app/content/wiki:ro
+      - ${OUTPUT_PATH:-/volume1/docker/wealth/content/output}:/app/content/output:ro
+    environment:
+      - NODE_ENV=production
+      - TZ=${TZ:-Asia/Shanghai}
+    networks:
+      - wiki-net
+    healthcheck:
+      test: ["CMD-SHELL", "node -e \"require('http').get('http://localhost:8080', r => process.exit(r.statusCode === 200 ? 0 : 1)).on('error', () => process.exit(1))\""]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 120s
+
+  # 如未来需要 Basic Auth，取消下方注释 + 修改 quartz 的 ports 为 expose
+  # nginx:
+  #   image: nginx:alpine
+  #   container_name: wealth-nginx
+  #   restart: unless-stopped
+  #   ports:
+  #     - "${BIND_IP:-0.0.0.0}:${WEB_PORT:-8080}:80"
+  #   volumes:
+  #     - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+  #     - ./.htpasswd:/etc/nginx/.htpasswd:ro
+  #   environment:
+  #     - TZ=${TZ:-Asia/Shanghai}
+  #   depends_on:
+  #     - quartz
+  #   networks:
+  #     - wiki-net
+
+networks:
+  wiki-net:
+    driver: bridge
+    name: wealth-wiki-net

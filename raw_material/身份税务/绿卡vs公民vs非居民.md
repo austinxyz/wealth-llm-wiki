@@ -207,6 +207,11 @@
 
 ## 待提炼为 wiki 条目
 
-- [ ] `wiki/中美对比/三种身份税务差异.md`
-- [ ] `wiki/中美对比/绿卡LTR陷阱.md`
-- [ ] `wiki/中美对比/Dual-Status-Alien.md`
+**已提炼（2026-04-20）**：
+
+- [x] `wiki/中美对比/三种身份税务差异.md` — 四身份矩阵（实际 4 种，含 Resident Alien）+ Citizenship-Based Taxation + 配偶 MFJ/MFS 策略 + 对比速查表
+- [x] `wiki/中美对比/Dual-Status-Alien.md` — 年内身份变更 + 4 大场景 + First-Year Choice + 无 Standard Deduction / MFJ 陷阱 + 税负对比
+- [~] ~~`wiki/中美对比/绿卡LTR陷阱.md`~~ — **跳过**，与已有 `[[LTR-8年窗口]]`（2026-04-20）高度重叠，不重复创建
+
+**MOC 更新**：
+- [x] `wiki/中美对比/00-MOC-中美对比.md` 加入 2 条
