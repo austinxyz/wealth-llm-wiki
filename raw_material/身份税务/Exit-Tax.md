@@ -265,8 +265,13 @@ Covered Expatriate 放弃后仍有部分义务：
 
 ## 待提炼为 wiki 条目
 
-- [ ] `wiki/中美对比/Exit-Tax.md`
-- [ ] `wiki/中美对比/Form-8854.md`
-- [ ] `wiki/中美对比/LTR-8年窗口.md`
-- [ ] `wiki/中美对比/Covered-Expatriate-三测试.md`
-- [ ] `wiki/中美对比/Section-2801遗产.md`
+**已提炼**：
+
+- [x] `wiki/中美对比/Exit-Tax.md` — 主条目（已于 2026-04-16 提炼，含整体流程概览）
+- [x] `wiki/中美对比/Form-8854.md` — 5 大 Parts + Dual-Status Return + 罚款 + 专业服务（2026-04-20）
+- [x] `wiki/中美对比/LTR-8年窗口.md` — 8 个税年精确计算 + 15 年窗口 + 6-7 年决策期 + 三条路径（2026-04-20）
+- [x] `wiki/中美对比/Covered-Expatriate-三测试.md` — 三测试详解 + 规避策略 + 测试 3 最易失手 + 5 个对比案例（2026-04-20）
+- [x] `wiki/中美对比/Section-2801遗产.md` — 40% 持续税 + Form 708 + 放弃前 Lifetime Exemption + 长期双居影响（2026-04-20）
+
+**MOC 更新（2026-04-20）**：
+- [x] `wiki/中美对比/00-MOC-中美对比.md` 加入 4 条新深度主题

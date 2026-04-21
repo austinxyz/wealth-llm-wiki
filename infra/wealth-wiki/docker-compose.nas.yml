@@ -1,0 +1,30 @@
+services:
+  quartz:
+    # 从 Docker Hub 拉取镜像（请改为你的用户名）
+    image: ${DOCKER_HUB_USER:-xuaustin}/wealth-wiki:latest
+    container_name: wealth-quartz
+    restart: unless-stopped
+    ports:
+      # NAS 监听所有内网接口，端口 8899
+      - "${BIND_IP:-0.0.0.0}:${WEB_PORT:-8899}:8080"
+    volumes:
+      # 挂载 NAS 上已同步的内容目录（只读）
+      - ${RAW_MATERIAL_PATH:-/volume1/docker/wealth/content/raw_material}:/app/content/raw_material:ro
+      - ${WIKI_PATH:-/volume1/docker/wealth/content/wiki}:/app/content/wiki:ro
+      - ${OUTPUT_PATH:-/volume1/docker/wealth/content/output}:/app/content/output:ro
+    environment:
+      - NODE_ENV=production
+      - TZ=${TZ:-Asia/Shanghai}
+    networks:
+      - wiki-net
+    healthcheck:
+      test: ["CMD-SHELL", "node -e \"require('http').get('http://localhost:8080', r => process.exit(r.statusCode === 200 ? 0 : 1)).on('error', () => process.exit(1))\""]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+networks:
+  wiki-net:
+    driver: bridge
+    name: wealth-wiki-net

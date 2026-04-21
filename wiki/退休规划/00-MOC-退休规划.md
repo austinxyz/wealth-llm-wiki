@@ -2,7 +2,7 @@
 title: 退休规划总览
 category: MOC
 tags: [退休规划, MOC]
-updated: 2026-04-16
+updated: 2026-04-20
 status: stable
 ---
 
@@ -20,6 +20,9 @@ status: stable
 - [[Social-Security]] — 62减30%/67基准/70加24%，延迟到70是长寿保险
 - [[Medicare]] — Part A/B/C/D + Medigap，2026 Part B $202.90，IRMAA
 - [[ACA-Marketplace]] — Medicare前健保，2026补贴大幅缩水，400% FPL断崖
+- [[净资产追踪]] — 总资产-总负债；FIRE进度；至少季度更新；6个常见错误
+- [[资产估值方法]] — 房产取中位数减销售成本；加密折50%；RSU未归属不计
+- [[净资产工具对比]] — Empower免费/Monarch $15月/Kubera高净值+跨境/Tiller Sheets极客
 
 ## Dataview 查询
 

@@ -2,7 +2,7 @@
 title: 财富规划知识库总览
 category: MOC
 tags: [总览, MOC]
-updated: 2026-04-16
+updated: 2026-04-20
 status: stable
 ---
 
@@ -19,6 +19,8 @@ status: stable
 - [[中美对比/00-MOC-中美对比|中美对比]] — 双边资产策略、FBAR、PFIC、Exit Tax 等
 - [[股权激励/00-MOC-股权激励|股权激励]] — RSU、ESPP 等
 - [[遗产规划/00-MOC-遗产规划|遗产规划]] — Revocable Trust、Beneficiary Designation 等
+- [[保险规划/00-MOC-保险规划|保险规划]] — 保险优先级、失能险、Term vs Whole、Umbrella、长护险、COBRA 等
+- [[家庭财务/00-MOC-家庭财务|家庭财务]] — Pay Yourself First、50/30/20、零基预算、信封法、自动化储蓄 等
 
 ## 全库 Dataview 索引
 

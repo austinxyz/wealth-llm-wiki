@@ -165,6 +165,11 @@ FATCA 报告金额 vs Form 8938 申报金额
 
 ## 待提炼为 wiki 条目
 
-- [ ] `wiki/中美对比/FATCA.md`
-- [ ] `wiki/中美对比/FATCA-vs-CRS.md`
-- [ ] `wiki/中美对比/中国银行开户限制.md`
+**已提炼（2026-04-20）**：
+
+- [x] `wiki/中美对比/FATCA.md` — 两套义务 + IGA 模型 + IRS 比对机制 + vs FBAR 对比
+- [x] `wiki/中美对比/FATCA-vs-CRS.md` — 美国不参与 CRS + 双边合规义务 + 美国"天堂"策略失效
+- [x] `wiki/中美对比/中国银行开户限制.md` — 四大行态度 + 关闭产品清单 + 开户策略 + 雷区
+
+**MOC 更新**：
+- [x] `wiki/中美对比/00-MOC-中美对比.md` 加入 3 条

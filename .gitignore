@@ -2,3 +2,9 @@ output/
 .claude/
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+
+# Infra 敏感文件（Docker 部署密钥）
+infra/**/.env
+infra/**/.htpasswd
+infra/**/public/
+infra/**/node_modules/
