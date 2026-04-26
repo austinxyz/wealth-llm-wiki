@@ -15,21 +15,25 @@
 ```
 GitHub 仓库（public）
 ├── wiki/            知识字典（通用）
-├── publish/         演示文章（用虚构家庭讲故事）
-├── output/          .gitignore，读者克隆后自建
-└── .claude/skills/  wealth-advise / extract / log 等
+├── publish/         演示文章（用虚构家庭讲故事）+ prompt 清单
+├── templates/       空白财务档案模板（读者填写后放入 output/）
+├── output/          .gitignore，读者克隆后自建（填好的模板放这里）
+└── .claude/skills/  wealth-advise
 
 外部平台（微信/知乎/小红书）
 └── publish/ 文章内容 → 引导读者克隆仓库
 
-读者克隆后
-└── 打开 Claude Code → 用 Skills 输入自己的数据 → 得到个性化分析
+读者克隆后的使用流程
+1. 复制 templates/ 中的模板到 output/
+2. 填入自己的收入、账户、资产信息
+3. 打开 Claude Code → /wealth-advise → 得到个性化分析
 ```
 
 - `publish/` 文章是"样品间"：展示知识如何落地到具体人的决策
 - `wiki/` 是"知识仓库"：字典式条目，文章的知识来源
-- `.claude/skills/` 是"使用说明书"：读者克隆后直接可用
-- `output/` 是"读者自己填的工作台"：克隆后用 skills 生成个人数据
+- `templates/` 是"入门表格"：引导读者整理自己的财务信息
+- `.claude/skills/wealth-advise` 是"分析引擎"：读取 output/ 生成建议
+- `output/` 是"读者自己填的工作台"：克隆后复制模板、填入个人数据
 
 ---
 
@@ -38,6 +42,7 @@ GitHub 仓库（public）
 ```
 publish/
 ├── README.md                    # 知识库介绍 + 克隆使用指南
+├── prompt-guide.md              # 推荐 prompt 清单（按场景分类）
 ├── personas/                    # 虚构人物设定（供所有文章复用）
 │   ├── 阿明.md
 │   ├── 小陈.md
@@ -51,13 +56,18 @@ publish/
 └── 中美双边/                    # 王女士系列（绿卡回国规划）
     ├── 01-回国前必做的财务清单.md
     └── 02-FBAR和FATCA怎么处理.md
+
+templates/                       # 空白模板（入库，不含个人数据）
+├── README.md                    # 说明：复制到 output/ 后填入个人数据
+├── 基本信息.md                  # 年龄、身份、家庭、所在州
+├── 收入与税务.md                # 工资、RSU/ESPP、边际税率
+├── 账户与资产.md                # 401K、Roth IRA、HSA、应税账户余额
+└── 财务目标.md                  # 退休年龄、FIRE 目标、近期大额支出
 ```
 
-**Skills 同步：** 将以下 Skills 从 `~/.claude/skills/` 复制到仓库 `.claude/skills/`，读者克隆后直接可用：
-- `wealth-advise`：基于 wiki/ + 用户自建 output/ 生成个性化建议
-- `wealth-extract`：从 raw_material/ 文章提炼 wiki/ 条目
-- `wealth-log`：记录投资交易，自动更新日志
-- `wealth-sync`：同步 wiki/ 条目与 raw_material/ 来源
+**Skills 同步：** 将 `wealth-advise` 从 `~/.claude/skills/` 复制到仓库 `.claude/skills/`，读者克隆后直接可用。其余维护类 Skills（wealth-extract、wealth-log、wealth-sync）仅供仓库作者使用，不放入公开仓库。
+
+- `wealth-advise`：基于 wiki/ + 用户自建 output/ 生成个性化建议（外部读者唯一需要的 skill）
 
 ---
 
@@ -153,3 +163,44 @@ status: draft  # draft | ready | published
 - `personas/` 中的人物设定为**完全虚构**，与 `output/` 中的个人数据无关
 - 任何 publish/ 文章**不得引用 output/** 中的内容
 - 文章中的金额/数字来自人物设定，不反映真实持仓
+
+---
+
+## 9. 读者财务档案模板（templates/）
+
+四个模板文件，读者克隆后复制到 `output/` 再填写，`output/` 已被 `.gitignore` 保护。
+
+| 文件 | 收集信息 | 示例字段 |
+|------|---------|---------|
+| `基本信息.md` | 个人背景 | 年龄、移民身份（H1B/绿卡/公民）、所在州、家庭成员 |
+| `收入与税务.md` | 收入来源 | 税前工资、RSU 归属、ESPP、预估边际税率、AGI |
+| `账户与资产.md` | 账户余额 | 401K（传统/Roth）、IRA、HSA、应税账户、中国资产 |
+| `财务目标.md` | 规划目标 | 目标退休年龄、FIRE 数字、近3年大额支出、风险偏好 |
+
+模板使用注释说明每个字段的用途，读者按需填写，不强制全部完成。
+
+---
+
+## 10. Prompt 清单（publish/prompt-guide.md）
+
+按场景分类，每条 prompt 对应 wiki/ 中的知识点，读者填好模板后直接复制使用。
+
+**新手入门（对应小陈）**
+- `我刚入职，H1B 身份，请告诉我应该开哪些账户，优先级怎么排`
+- `我有学生贷款 $X，同时想开始投资，应该怎么平衡？`
+- `我的 401K 应该选传统还是 Roth？请根据我的收入和税率分析`
+
+**退休规划（对应阿明）**
+- `请评估我现在的退休准备度，距离财务独立还差多少`
+- `我今年处于低收入年，是否适合做 Roth Conversion？转多少合适？`
+- `请帮我制定未来 5 年的资产配置优化计划`
+
+**中美双边（对应王女士）**
+- `我持有绿卡，考虑 5 年内回国，请列出财务清单和注意事项`
+- `我有中美双边资产，FBAR 和 FATCA 我需要申报哪些内容？`
+- `放弃绿卡的 Exit Tax 风险如何评估？我需要做哪些准备？`
+
+**通用**
+- `请给我一份整体的财务健康诊断`
+- `根据我的情况，今年税务优化的优先级是什么？`
+- `请比较我当前的保险覆盖是否足够`
