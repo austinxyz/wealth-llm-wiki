@@ -48,6 +48,41 @@ claude  # 打开 Claude Code
 
 见 [prompt-guide.md](prompt-guide.md)，按你的情况选择合适的问题。
 
+## 用 Obsidian 浏览知识库
+
+整个仓库是一个 [Obsidian](https://obsidian.md) vault，克隆后直接用 Obsidian 打开即可获得最佳阅读体验。
+
+### 打开方式
+
+1. 下载并安装 [Obsidian](https://obsidian.md)（免费）
+2. 打开 Obsidian → **Open folder as vault** → 选择克隆下来的 `wealth/` 目录
+3. 首次打开时 Obsidian 会提示是否信任作者配置，点击 **Trust author and enable plugins**
+
+### 你可以做什么
+
+**浏览知识条目**
+- 左侧文件树中打开 `wiki/` → 按分类浏览 100+ 条结构化知识条目
+- 每个分类都有 `00-MOC-xxx.md` 总览页，列出该分类所有条目
+
+**查看文章与案例**
+- 打开 `publish/` → 按人物系列阅读本文章及后续内容
+- 文章内的 `[[wiki/...]]` 链接可直接点击跳转到对应知识条目
+
+**图谱视图（Graph View）**
+- 点击左侧图谱图标（或 Ctrl+G）打开知识图谱
+- 可视化查看 wiki 条目之间的引用关系、文章与知识的连接
+
+**查看 AI 生成的个人建议**
+- 用 Claude Code 运行 `/wealth-advise` 后，建议文件会保存到 `output/`
+- 在 Obsidian 中打开 `output/` 即可阅读，同样支持 WikiLink 跳转到相关 wiki 条目
+
+### 注意事项
+
+- `output/` 目录不在 git 追踪范围内（`.gitignore`），是你的私人工作空间
+- wiki 条目中的 Dataview 查询块（MOC 页）需要安装 **Dataview 插件**才能渲染（可在 Settings → Community Plugins 搜索安装）；不安装也不影响阅读
+
+---
+
 ## 隐私说明
 
 - 你填写的 `output/` 文件已被 `.gitignore` 忽略，**不会上传到 GitHub**
