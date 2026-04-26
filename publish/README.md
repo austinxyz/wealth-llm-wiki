@@ -14,39 +14,70 @@
 | [阿明](personas/阿明.md) | 50岁，绿卡，有积累，规划退休 | [退休规划](退休规划/) |
 | [王女士](personas/王女士.md) | 55岁，绿卡，中美双边，考虑回国 | [中美双边](中美双边/) |
 
-## 克隆后如何使用 AI 分析你的情况
+## 快速开始
 
 ### 前置条件
 - 安装 [Claude Code](https://claude.ai/code)（Anthropic 官方 CLI）
+- 有 GitHub 账号（推荐 Fork，见下）
 
-### 步骤
+### 推荐：Fork 这个仓库
 
-**1. 克隆仓库**
+**强烈建议 Fork 而不是直接克隆。** Fork 之后你拥有自己的副本，可以：
+- 在自己的 GitHub 上保留完整知识库备份
+- 将来同步上游更新（新增的 wiki 条目和文章）
+- 按需添加自己的笔记或修改
+
+**Fork 步骤：**
+1. 点击 GitHub 页面右上角 **Fork** 按钮
+2. 选择你自己的账号，完成 Fork
+3. 克隆你 Fork 后的仓库：
+
 ```bash
-git clone https://github.com/austinxyz/wealth.git
-cd wealth
+git clone https://github.com/<你的用户名>/wealth-llm-wiki.git
+cd wealth-llm-wiki
 ```
 
-**2. 填写你的财务档案**
+### 建立本地 output 目录
+
+`output/` 是你的私人工作空间，已被 `.gitignore` 忽略，**不会上传到 GitHub**。克隆后手动创建：
+
+```bash
+mkdir output
+```
+
+然后从模板复制并填写财务档案：
+
 ```bash
 cp templates/基本信息.md output/基本信息.md
 cp templates/收入与税务.md output/收入与税务.md
 cp templates/账户与资产.md output/账户与资产.md
 cp templates/财务目标.md output/财务目标.md
-# 用任意编辑器打开 output/ 中的文件并填写
+# 用任意编辑器打开 output/ 中的文件并填写你的真实数据
 ```
 
-**3. 启动 Claude Code 并运行分析**
+### 运行 AI 分析
+
 ```bash
-claude  # 打开 Claude Code
-# 在 Claude Code 中输入：
-/wealth-advise 退休规划
-# 或参考 prompt-guide.md 中的其他 prompt
+claude  # 启动 Claude Code
 ```
 
-**4. 查看 prompt 建议**
+在 Claude Code 中输入：
 
-见 [prompt-guide.md](prompt-guide.md)，按你的情况选择合适的问题。
+```
+/wealth-advise 退休规划
+```
+
+或参考 [prompt-guide.md](prompt-guide.md) 选择适合你情况的问题。
+
+### 同步上游更新
+
+如果原始仓库有新文章或新 wiki 条目，可以拉取更新（不会影响你的 `output/`）：
+
+```bash
+git remote add upstream https://github.com/austinxyz/wealth-llm-wiki.git
+git fetch upstream
+git merge upstream/main
+```
 
 ## 用 Obsidian 浏览知识库
 
