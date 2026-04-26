@@ -1,5 +1,8 @@
 output/
-.claude/
+.claude/*
+!.claude/skills/
+.claude/skills/*
+!.claude/skills/wealth-advise/
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 
