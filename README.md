@@ -72,6 +72,8 @@ claude  # 启动 Claude Code
 
 更多 prompt 见 [publish/prompt-guide.md](publish/prompt-guide.md)。
 
+> 完整使用说明（Fork、Obsidian、AI 分析步骤）见 **[publish/README.md](publish/README.md)**。
+
 ### 同步上游更新
 
 ```bash
