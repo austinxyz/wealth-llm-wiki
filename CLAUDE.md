@@ -29,7 +29,7 @@
 title: <条目名称>
 category: <账户类型 | 税务策略 | 投资品种 | 退休规划 | 中美对比>
 tags: [tag1, tag2]
-source: "[[raw_material/来源文件名]]"
+source: "[[raw_material/<分类>/来源文件名]]"
 updated: YYYY-MM-DD
 status: <draft | stable | outdated>
 ---
@@ -46,11 +46,13 @@ status: <draft | stable | outdated>
 - 要点2
 
 ## 与其他概念的关系
-- [[相关条目]]：关系说明
+- [[wiki/<分类>/相关条目|相关条目]]：关系说明
 
 ## 参考来源
-- [[raw_material/xxx]]
+- [[raw_material/<分类>/来源文件|来源文件]]
 ```
+
+> ⚠️ WikiLink 必须带完整路径前缀（见下文 "WikiLinks 和 Dataview" 节）。
 
 ### 命名约定
 
@@ -60,22 +62,48 @@ status: <draft | stable | outdated>
 
 ### WikiLinks 和 Dataview
 
-- 条目引用用 `[[条目名]]`（Obsidian 格式）
-- MOC 页包含 Dataview 查询块：
-  ```dataview
-  TABLE updated, status, tags
-  FROM "wiki/<分类>"
-  WHERE file.name != "00-MOC-<分类>"
-  SORT updated DESC
-  ```
+#### WikiLink 写法（Quartz 兼容）
 
-## 三个配套 Skills 的使用
+**重要**：本项目内容通过 Quartz 发布（部署在 `austin-second-brain` 项目）。Quartz 把 WikiLink 路径视为**从站点根开始的绝对路径**（不是 Obsidian 的"按文件名全局搜索"），所以必须写**完整路径**。
+
+| 场景 | 正确写法 | 错误写法（Quartz 会生成错误 URL） |
+|------|--------|----------|
+| wiki 内部引用 | `[[wiki/分类/文件名\|显示名]]` | `[[文件名]]`、`[[分类/文件名]]` |
+| output 内部引用 | `[[output/子目录/文件名\|显示名]]` | `[[文件名]]`、`[[子目录/文件名]]` |
+| output → wiki | `[[wiki/分类/文件名\|显示名]]` | `[[文件名]]` |
+| wiki → raw_material | `[[raw_material/分类/文件名\|显示名]]` | `[[文件名]]` |
+
+**原因**：`[[资产全景]]` 会被 Quartz 解析成 `/资产全景`（缺目录），`[[资产追踪/资产全景]]` 会被解析成 `/资产追踪/资产全景`（缺 `output/`）。必须写 `[[output/资产追踪/资产全景]]` 才能生成 `/output/资产追踪/资产全景`。
+
+#### 表格里的管道符
+
+WikiLink 在 Markdown 表格单元格内，别名的 `|` 必须转义成 `\|`，否则会被当作列分隔符：
+
+```markdown
+| 项目 | 链接 |
+|------|------|
+| 资产全景 | [[output/资产追踪/资产全景\|资产全景]] |  ← 用 \|
+```
+
+#### Dataview
+
+MOC 页包含 Dataview 查询块（Dataview 只在 Obsidian 里工作，Quartz 不渲染但不会报错）：
+
+```dataview
+TABLE updated, status, tags
+FROM "wiki/<分类>"
+WHERE file.name != "00-MOC-<分类>"
+SORT updated DESC
+```
+
+## 配套 Skills 的使用
 
 | Skill | 何时触发 |
 |-------|---------|
 | `/wealth-extract <raw_material文件>` | 有新的调研文章要提炼成 wiki 条目 |
 | `/wealth-sync <wiki条目>` | 已有 wiki 条目的来源 raw_material 有更新 |
 | `/wealth-advise <主题>` | 需要基于个人数据生成针对性策略建议 |
+| `/wealth-log <今日交易>` | 记录新的投资交易（自动创建 `投资日志/YYYY-MM-DD.md` + 更新主索引）|
 
 详细工作流见 `~/.claude/skills/wealth-*/SKILL.md`。
 
@@ -134,6 +162,19 @@ wealth/
 │   ├── 退休规划/
 │   └── 中美对比/
 ├── output/             个人数据，不入库
+│   ├── 00-MOC-个人数据.md
+│   ├── 身份规划/       绿卡、入籍
+│   ├── 投资策略/       持仓、计划、执行
+│   ├── 退休规划/       401K、FIRE、换房
+│   ├── 保险/           IUL 等
+│   └── 资产追踪/       净资产、资产全景
+├── publish/            对外发布文章（虚构家庭案例），入库
+│   ├── personas/       三个虚构人物设定
+│   ├── 新手入门/       小陈系列
+│   ├── 退休规划/       阿明系列
+│   └── 中美双边/       王女士系列
+├── templates/          读者财务档案空白模板，入库
+├── .claude/skills/     公开版 wealth-advise skill
 ├── docs/superpowers/   设计文档和实施计划
 ├── prompt/             临时 prompt 文件
 └── .obsidian/          Obsidian vault 配置
