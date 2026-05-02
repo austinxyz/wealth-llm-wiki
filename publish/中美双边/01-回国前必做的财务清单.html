@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>回国前必做的财务清单</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400;1,600&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    /* ===========================================
+       VIEWPORT FITTING: MANDATORY BASE STYLES
+       =========================================== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      height: 100%;
+      overflow-x: hidden;
+    }
+
+    html {
+      scroll-snap-type: y mandatory;
+      scroll-behavior: smooth;
+    }
+
+    .slide {
+      width: 100vw;
+      height: 100vh;
+      height: 100dvh;
+      overflow: hidden;
+      scroll-snap-align: start;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    :root {
+      --title-size:   clamp(1.8rem, 5vw, 4.2rem);
+      --h2-size:      clamp(1.2rem, 2.8vw, 2.2rem);
+      --h3-size:      clamp(1rem, 2vw, 1.5rem);
+      --body-size:    clamp(0.78rem, 1.35vw, 1.05rem);
+      --small-size:   clamp(0.68rem, 1vw, 0.85rem);
+      --slide-pad:    clamp(1.5rem, 5vw, 5rem);
+      --gap:          clamp(0.5rem, 1.5vw, 1.5rem);
+
+      /* Dark Botanical palette */
+      --bg:           #0c0b09;
+      --bg2:          #141210;
+      --ivory:        #f0ead8;
+      --ivory-dim:    #b8b0a0;
+      --gold:         #c9a96e;
+      --gold-light:   #e0c890;
+      --blush:        #c4938a;
+      --terra:        #b85c3e;
+      --rule:         rgba(201,169,110,0.25);
+
+      --font-serif:   'Cormorant', 'Noto Serif SC', 'Source Han Serif CN', STSong, serif;
+      --font-sans:    'IBM Plex Sans', 'PingFang SC', 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+    }
+
+    @media (max-height: 700px) {
+      :root {
+        --slide-pad: clamp(1rem, 3vw, 2.5rem);
+        --gap: clamp(0.4rem, 1vw, 1rem);
+        --title-size: clamp(1.5rem, 4vw, 3rem);
+        --h2-size: clamp(1rem, 2.4vw, 1.8rem);
+        --body-size: clamp(0.72rem, 1.2vw, 0.95rem);
+      }
+    }
+    @media (max-height: 600px) {
+      :root {
+        --slide-pad: clamp(0.75rem, 2.5vw, 1.5rem);
+        --gap: clamp(0.3rem, 0.8vw, 0.7rem);
+        --title-size: clamp(1.25rem, 3.5vw, 2.2rem);
+        --h2-size: clamp(0.9rem, 2vw, 1.4rem);
+        --body-size: clamp(0.65rem, 1vw, 0.85rem);
+      }
+      .nav-dots, .kbd-hint { display: none; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.2s !important;
+      }
+      html { scroll-behavior: auto; }
+    }
+
+    /* ===========================================
+       DARK BOTANICAL THEME
+       =========================================== */
+    body {
+      background: var(--bg);
+      font-family: var(--font-sans);
+      color: var(--ivory);
+    }
+
+    /* Atmospheric blob background */
+    .blob {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(clamp(60px, 10vw, 120px));
+      pointer-events: none;
+      opacity: 0.18;
+    }
+    .blob-gold { background: #c9a96e; }
+    .blob-blush { background: #c4938a; }
+    .blob-terra { background: #8a3a22; }
+
+    /* Slide header rule */
+    .slide-rule {
+      width: clamp(40px, 8vw, 80px);
+      height: 1px;
+      background: var(--gold);
+      margin-bottom: var(--gap);
+      opacity: 0.7;
+    }
+
+    /* Typography */
+    h1 {
+      font-family: var(--font-serif);
+      font-size: var(--title-size);
+      font-weight: 500;
+      line-height: 1.1;
+      letter-spacing: -0.01em;
+      color: var(--ivory);
+    }
+    h2 {
+      font-family: var(--font-serif);
+      font-size: var(--h2-size);
+      font-weight: 500;
+      line-height: 1.2;
+      color: var(--ivory);
+    }
+    h3 {
+      font-family: var(--font-sans);
+      font-size: var(--h3-size);
+      font-weight: 500;
+      color: var(--gold);
+      letter-spacing: 0.02em;
+    }
+    p, li {
+      font-size: var(--body-size);
+      line-height: 1.65;
+      color: var(--ivory-dim);
+    }
+    strong { color: var(--ivory); font-weight: 500; }
+    em { color: var(--gold-light); font-style: normal; }
+
+    /* Slide number badge */
+    .slide-badge {
+      font-family: var(--font-serif);
+      font-size: clamp(4rem, 12vw, 10rem);
+      font-weight: 600;
+      color: var(--gold);
+      opacity: 0.08;
+      position: absolute;
+      top: var(--slide-pad);
+      right: var(--slide-pad);
+      line-height: 1;
+      user-select: none;
+      pointer-events: none;
+    }
+
+    /* Subtitle / label */
+    .label {
+      font-family: var(--font-sans);
+      font-size: var(--small-size);
+      font-weight: 300;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      opacity: 0.8;
+    }
+
+    /* Fine rule separator */
+    .rule {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: var(--gap) 0;
+    }
+
+    /* Cards grid */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+      gap: clamp(0.5rem, 1.2vw, 1rem);
+    }
+    .card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--rule);
+      border-radius: 6px;
+      padding: clamp(0.75rem, 2vw, 1.5rem);
+    }
+    .card-label {
+      font-family: var(--font-sans);
+      font-size: var(--small-size);
+      font-weight: 500;
+      color: var(--gold);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 0.4em;
+    }
+    .card p { font-size: var(--small-size); line-height: 1.5; }
+
+    /* Table */
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: var(--small-size);
+    }
+    .data-table th {
+      text-align: left;
+      padding: clamp(0.4rem, 0.8vw, 0.75rem) clamp(0.5rem, 1vw, 1rem);
+      font-family: var(--font-sans);
+      font-weight: 500;
+      font-size: var(--small-size);
+      color: var(--gold);
+      letter-spacing: 0.06em;
+      border-bottom: 1px solid var(--rule);
+    }
+    .data-table td {
+      padding: clamp(0.35rem, 0.7vw, 0.65rem) clamp(0.5rem, 1vw, 1rem);
+      color: var(--ivory-dim);
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      line-height: 1.4;
+    }
+    .data-table tr:last-child td { border-bottom: none; }
+    .data-table .highlight { color: var(--ivory); }
+    .data-table .warn { color: var(--terra); }
+    .data-table .ok { color: #7db87d; }
+
+    /* Bullet list */
+    .bullets { list-style: none; }
+    .bullets li {
+      padding: clamp(0.25rem, 0.6vw, 0.5rem) 0;
+      padding-left: 1.4em;
+      position: relative;
+      font-size: var(--body-size);
+    }
+    .bullets li::before {
+      content: '—';
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      opacity: 0.7;
+    }
+
+    /* Two-column layout */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(1rem, 3vw, 3rem);
+      align-items: start;
+    }
+    @media (max-width: 700px) {
+      .two-col { grid-template-columns: 1fr; }
+    }
+
+    /* Highlight box */
+    .callout {
+      background: rgba(201,169,110,0.08);
+      border-left: 3px solid var(--gold);
+      border-radius: 0 4px 4px 0;
+      padding: clamp(0.6rem, 1.5vw, 1.2rem) clamp(0.8rem, 2vw, 1.5rem);
+    }
+    .callout p { color: var(--ivory); font-size: var(--body-size); }
+
+    /* Warning box */
+    .warning-box {
+      background: rgba(184,92,62,0.12);
+      border-left: 3px solid var(--terra);
+      border-radius: 0 4px 4px 0;
+      padding: clamp(0.6rem, 1.5vw, 1.2rem) clamp(0.8rem, 2vw, 1.5rem);
+    }
+    .warning-box p { color: var(--ivory); font-size: var(--body-size); }
+
+    /* Step list */
+    .steps { list-style: none; counter-reset: step-counter; }
+    .steps li {
+      counter-increment: step-counter;
+      padding-left: 2.2em;
+      position: relative;
+      margin-bottom: clamp(0.4rem, 0.8vw, 0.75rem);
+      font-size: var(--body-size);
+      color: var(--ivory-dim);
+    }
+    .steps li::before {
+      content: counter(step-counter);
+      position: absolute;
+      left: 0;
+      width: 1.5em;
+      height: 1.5em;
+      background: rgba(201,169,110,0.15);
+      border: 1px solid var(--gold);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-serif);
+      font-size: 0.85em;
+      color: var(--gold);
+      top: 0.1em;
+    }
+
+    /* Formula display */
+    .formula {
+      font-family: var(--font-sans);
+      font-size: var(--body-size);
+      color: var(--gold-light);
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--rule);
+      border-radius: 4px;
+      padding: clamp(0.5rem, 1.2vw, 1rem) clamp(0.8rem, 1.5vw, 1.5rem);
+      margin: var(--gap) 0;
+    }
+
+    /* Navigation */
+    .nav-dots {
+      position: fixed;
+      right: clamp(0.75rem, 2vw, 1.5rem);
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      z-index: 100;
+    }
+    .dot {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--ivory-dim);
+      opacity: 0.35;
+      cursor: pointer;
+      transition: opacity 0.3s, transform 0.3s;
+    }
+    .dot.active {
+      opacity: 1;
+      background: var(--gold);
+      transform: scale(1.4);
+    }
+
+    .progress-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 2px;
+      background: var(--gold);
+      transition: width 0.3s ease;
+      z-index: 101;
+    }
+
+    .kbd-hint {
+      position: fixed;
+      bottom: clamp(0.75rem, 2vw, 1.5rem);
+      right: clamp(0.75rem, 2vw, 1.5rem);
+      font-size: clamp(0.6rem, 0.9vw, 0.75rem);
+      color: var(--ivory-dim);
+      opacity: 0.35;
+      font-family: var(--font-sans);
+      letter-spacing: 0.05em;
+      z-index: 100;
+    }
+
+    /* Reveal animations */
+    .reveal {
+      opacity: 0;
+      transform: translateY(16px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .reveal-delay-1 { transition-delay: 0.1s; }
+    .reveal-delay-2 { transition-delay: 0.2s; }
+    .reveal-delay-3 { transition-delay: 0.3s; }
+    .reveal-delay-4 { transition-delay: 0.4s; }
+    .reveal-delay-5 { transition-delay: 0.5s; }
+
+    /* Links */
+    .wiki-link {
+      color: var(--gold-light);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(201,169,110,0.35);
+      transition: color 0.2s, border-color 0.2s;
+    }
+    .wiki-link:hover {
+      color: #fff;
+      border-color: var(--gold);
+    }
+
+    /* ============================================
+       SLIDE-SPECIFIC LAYOUTS
+       ============================================ */
+
+    /* Title slide */
+    #s1 {
+      justify-content: flex-end;
+      padding: var(--slide-pad);
+      padding-bottom: clamp(2rem, 6vh, 5rem);
+    }
+    #s1 .blob-gold { width: 60vw; height: 60vw; top: -20vh; right: -20vw; opacity: 0.12; }
+    #s1 .blob-blush { width: 40vw; height: 40vw; bottom: -10vh; left: -10vw; opacity: 0.1; }
+    #s1 .title-rule { width: clamp(60px, 12vw, 120px); height: 1px; background: var(--gold); margin-bottom: clamp(1rem, 2.5vh, 2rem); }
+
+    /* Standard content slide */
+    .content-slide {
+      padding: var(--slide-pad);
+      justify-content: center;
+    }
+    .slide-header { margin-bottom: clamp(0.75rem, 2vh, 2rem); }
+
+    /* CTA slide */
+    #s12 {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: var(--slide-pad);
+    }
+  </style>
+</head>
+<body>
+
+<!-- Progress bar -->
+<div class="progress-bar" id="progress"></div>
+
+<!-- Nav dots -->
+<nav class="nav-dots" id="navDots" aria-label="幻灯片导航"></nav>
+
+<div class="kbd-hint">↑↓ 或滚轮导航</div>
+
+<!-- ============================================================
+     SLIDE 1: TITLE
+     ============================================================ -->
+<section class="slide" id="s1" data-index="0">
+  <div class="blob blob-gold"></div>
+  <div class="blob blob-blush"></div>
+
+  <div class="reveal">
+    <p class="label">中美双边系列 · 王女士的故事</p>
+  </div>
+  <div class="title-rule reveal reveal-delay-1"></div>
+  <h1 class="reveal reveal-delay-2">回国前必做的<br>财务清单</h1>
+  <p class="reveal reveal-delay-3" style="margin-top: clamp(0.75rem,2vw,1.5rem); font-size: var(--h3-size); color: var(--ivory-dim); font-family: var(--font-serif); font-style: italic;">
+    从哪里开始，最坏情况是什么？
+  </p>
+  <hr class="rule reveal reveal-delay-4" style="margin-top: clamp(1.5rem, 4vh, 3rem);">
+  <div class="reveal reveal-delay-5" style="display:flex; gap: clamp(1.5rem,4vw,4rem); flex-wrap:wrap;">
+    <div>
+      <p class="label" style="margin-bottom:0.3em;">主题</p>
+      <p style="font-size:var(--body-size); color:var(--ivory);">LTR · Exit Tax · FBAR · 资产清理</p>
+    </div>
+    <div>
+      <p class="label" style="margin-bottom:0.3em;">适合</p>
+      <p style="font-size:var(--body-size); color:var(--ivory);">绿卡持有人 · 计划回国者</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SLIDE 2: 人物背景
+     ============================================================ -->
+<section class="slide content-slide" id="s2" data-index="1">
+  <div class="blob blob-terra" style="width:50vw;height:50vw;top:-15vh;right:-10vw;"></div>
+  <div class="slide-badge">02</div>
+
+  <div class="slide-header">
+    <p class="label reveal">人物背景</p>
+    <div class="slide-rule reveal reveal-delay-1"></div>
+    <h2 class="reveal reveal-delay-1">王女士 · 55岁</h2>
+  </div>
+
+  <div class="two-col reveal reveal-delay-2">
+    <div>
+      <p class="label" style="margin-bottom:var(--gap);">基本情况</p>
+      <ul class="bullets">
+        <li>前科技公司高管，已退休</li>
+        <li>绿卡持有人，持有 <strong>12 年</strong></li>
+        <li>丈夫长期在北京</li>
+        <li>计划 <strong>5 年内</strong> 回国定居</li>
+        <li>加利福尼亚州居民</li>
+      </ul>
+    </div>
+    <div>
+      <p class="label" style="margin-bottom:var(--gap);">资产概况</p>
+      <ul class="bullets">
+        <li>401K（Traditional）<em>$500K</em></li>
+        <li>应税投资账户 <em>$300K</em></li>
+        <li>北京房产 <em>约 $700K</em>（RMB 500万）</li>
+        <li>中国银行存款 <em>约 $140K</em></li>
+        <li>合计资产 <em>≈ $1.64M</em></li>
+      </ul>
+    </div>
+  </div>
+
+  <hr class="rule reveal reveal-delay-3">
+  <div class="callout reveal reveal-delay-4">
+    <p>她知道回国前要处理很多财务问题，但面对 <strong>LTR、Exit Tax、FBAR、Roth Conversion</strong> 这些陌生词汇——不知该从哪里下手，也不知最坏情况是什么。</p>
+  </div>
+</section>
+
+<!-- ============================================================
+     SLIDE 3: Q1 LTR 8年窗口
+     ============================================================ -->
+<section class="slide content-slide" id="s3" data-index="2">
+  <div class="blob blob-gold" style="width:45vw;height:45vw;bottom:-10vh;left:-5vw;opacity:0.1;"></div>
+  <div class="slide-badge">03</div>
+
+  <div class="slide-header">
+    <p class="label reveal">Q1</p>
+    <div class="slide-rule reveal reveal-delay-1"></div>
+    <h2 class="reveal reveal-delay-1">绿卡一定要放弃吗？</h2>
+  </div>
+
+  <div class="reveal reveal-delay-2" style="margin-bottom: var(--gap);">
+    <p>关键在于你是否已越过 <strong>LTR 8 年窗口</strong>这条分界线。</p>
+  </div>
+
+  <div class="callout reveal reveal-delay-3" style="margin-bottom: var(--gap);">
+    <p><strong>Long-Term Resident（LTR）</strong>：15 年内持有有效绿卡满 <strong>8 个完整税年</strong>。LTR 放弃绿卡时，被视同公民放弃国籍，触发 <strong>Exit Tax</strong>。</p>
+  </div>
+
+  <div class="warning-box reveal reveal-delay-4" style="margin-bottom: var(--gap);">
+    <p>⚠️ <strong>陷阱</strong>：2018年12月31日拿到绿卡，2025年1月1日放弃——实际不足7年，但<strong>按税年计算已是第8年</strong>，已是 LTR。</p>
+  </div>
+
+  <p class="reveal reveal-delay-5" style="font-size: var(--body-size); color: var(--ivory-dim);">
+    持绿卡<em>不足 8 年</em>放弃 → <strong>无 Exit Tax</strong> &nbsp;｜&nbsp; 已满 8 年 → <strong>触发 Exit Tax 规则</strong>，需进一步评估
+  </p>
+</section>
+
+<!-- ============================================================
+     SLIDE 4: Q1 三条路径
+     ============================================================ -->
+<section class="slide content-slide" id="s4" data-index="3">
+  <div class="blob blob-blush" style="width:40vw;height:40vw;top:-5vh;right:-5vw;opacity:0.1;"></div>
+  <div class="slide-badge">04</div>
+
+  <div class="slide-header">
+    <p class="label reveal">Q1 续</p>
+    <div class="slide-rule reveal reveal-delay-1"></div>
+    <h2 class="reveal reveal-delay-1">绿卡策略的三条路径</h2>
+  </div>
+
+  <div class="cards reveal reveal-delay-2">
+    <div class="card">
+      <p class="card-label">路径 A</p>
+      <p style="font-size:var(--body-size); color: var(--gold); margin-bottom: 0.4em;"><strong>8 年前放弃</strong></p>
+      <p>避开 Exit Tax，失去绿卡。适合净资产高、<strong>确定不再长住</strong>的人。</p>
+    </div>
+    <div class="card">
+      <p class="card-label">路径 B</p>
+      <p style="font-size:var(--body-size); color: var(--gold); margin-bottom: 0.4em;"><strong>接受 LTR，规避 Covered</strong></p>
+      <p>通过降资产、保合规绕开三测试。适合<strong>净资产可降至 $2M 以下</strong>的情况。</p>
+    </div>
+    <div class="card">
+      <p class="card-label">路径 C</p>
+      <p style="font-size:var(--body-size); color: var(--gold); margin-bottom: 0.4em;"><strong>接受 Covered，优化税基</strong></p>
+      <p>在市场低位放弃，最大化豁免额度。适合<strong>净资产无法降到 $2M 以下</strong>的情况。</p>
+    </div>
+  </div>
+
+  <hr class="rule reveal reveal-delay-3">
+  <p class="reveal reveal-delay-4" style="font-size: var(--body-size); color: var(--ivory-dim);">
+    王女士持绿卡 12 年，已是 LTR，路径 A 已不可行。她需在 B、C 之间选择。
+  </p>
+</section>
+
+<!-- ============================================================
+     SLIDE 5: Q2 Exit Tax 触发逻辑
+     ============================================================ -->
+<section class="slide content-slide" id="s5" data-index="4">
+  <div class="blob blob-terra" style="width:55vw;height:55vw;bottom:-20vh;right:-10vw;opacity:0.1;"></div>
+  <div class="slide-badge">05</div>
+
+  <div class="slide-header">
+    <p class="label reveal">Q2</p>
+    <div class="slide-rule reveal reveal-delay-1"></div>
+    <h2 class="reveal reveal-delay-1">Exit Tax：两步触发逻辑</h2>
+  </div>
+
+  <div class="two-col reveal reveal-delay-2">
+    <div>
+      <h3 style="margin-bottom: var(--gap);">第一步：是否是 LTR？</h3>
+      <ul class="bullets">
+        <li>是 → 进入第二步</li>
+        <li>否 → <em>无 Exit Tax</em>，但仍需提交 Form 8854</li>
+      </ul>
+
+      <h3 style="margin-top: var(--gap); margin-bottom: var(--gap);">Covered Expatriate 三测试</h3>
+      <p style="font-size: var(--body-size); color: var(--ivory-dim); margin-bottom: var(--gap);">满足以下<em>任意一项</em>即触发：</p>
+      <table class="data-table">
+        <thead><tr><th>测试</th><th>2026 标准</th></tr></thead>
+        <tbody>
+          <tr><td>① 净资产</td><td class="warn">≥ $2,000,000</td></tr>
+          <tr><td>② 5年均税</td><td class="warn">≥ $206,000/年</td></tr>
+          <tr><td>③ 合规认证</td><td class="warn">无法证明5年完全合规</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <h3 style="margin-bottom: var(--gap);">如果触发，税额怎么算？</h3>
+      <div class="formula">
+        Exit Tax =<br>
+        (全球资产账面增值 − <em>$910K 豁免</em>)<br>
+        × 资本利得税率
+      </div>
+      <div class="callout" style="margin-top: var(--gap);">
+        <p><strong>示例：</strong>净资产 $3.5M，成本 $1.5M，增值 $2M<br>
+        减去豁免 $910K → 应税 $1.09M<br>
+        税率 23.8% → 税额约 <em>$260,000</em></p>
+      </div>
+      <div class="warning-box" style="margin-top: var(--gap);">
+        <p>⚠️ <strong>最易忽视</strong>：测试③——哪怕资产不高，<strong>一年漏报 FBAR</strong> 就触发 Covered 身份。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SLIDE 6: Q3 清单前半
+     ============================================================ -->
+<section class="slide content-slide" id="s6" data-index="5">
+  <div class="blob blob-gold" style="width:40vw;height:40vw;top:-10vh;left:-5vw;opacity:0.08;"></div>
+  <div class="slide-badge">06</div>
+
+  <div class="slide-header">
+    <p class="label reveal">Q3 · 财务清理清单（上）</p>
+    <div class="slide-rule reveal reveal-delay-1"></div>
+    <h2 class="reveal reveal-delay-1">回国前必做的六件事 — ①②③</h2>
+  </div>
+
+  <div class="cards reveal reveal-delay-2">
+    <div class="card">
+      <p class="card-label">① 明确绿卡策略（立即）</p>
+      <ul class="bullets" style="margin-top: 0.4em;">
+        <li>核实 LTR 状态（税年数）</li>
+        <li>评估 Covered Expatriate 三测试风险</li>
+        <li>咨询移民律师 + 跨境 CPA</li>
+      </ul>
+    </div>
+    <div class="card">
+      <p class="card-label">② Roth Conversion（退休后立即）</p>
+      <ul class="bullets" style="margin-top: 0.4em;">
+        <li>退休收入归零 → 黄金转换窗口</li>
+        <li>每年在 22–24% 税阶内转换</li>
+        <li>Roth 资产放弃绿卡时<em>免 Exit Tax</em></li>
+      </ul>
+    </div>
+    <div class="card">
+      <p class="card-label">③ 资本利得收割（每年执行）</p>
+      <ul class="bullets" style="margin-top: 0.4em;">
+        <li>退休低收入年 LTCG 0% 档 ≈ $96,700</li>
+        <li>卖出增值资产后立即买回，重置成本基</li>
+        <li>连续 3 年可重置 $180K+ 成本基</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SLIDE 7: Q3 清单后半
+     ============================================================ -->
+<section class="slide content-slide" id="s7" data-index="6">
+  <div class="blob blob-blush" style="width:45vw;height:45vw;bottom:-15vh;right:-10vw;opacity:0.09;"></div>
+  <div class="slide-badge">07</div>
+
+  <div class="slide-header">
+    <p class="label reveal">Q3 · 财务清理清单（下）</p>
+    <div class="slide-rule reveal reveal-delay-1"></div>
+    <h2 class="reveal reveal-delay-1">回国前必做的六件事 — ④⑤⑥</h2>
+  </div>
+
+  <div class="cards reveal reveal-delay-2">
+    <div class="card">
+      <p class="card-label">④ PFIC 清理（立即）</p>
+      <ul class="bullets" style="margin-top: 0.4em;">
+        <li>中国基金/理财/余额宝 = PFIC</li>
+        <li>持有 PFIC 有效税率可达 50–80%</li>
+        <li>回国前<em>必须全部清仓</em></li>
+        <li>银行存款无此问题，可保留</li>
+      </ul>
+    </div>
+    <div class="card">
+      <p class="card-label">⑤ FBAR 合规核查（立即）</p>
+      <ul class="bullets" style="margin-top: 0.4em;">
+        <li>审查历年申报记录是否完整</li>
+        <li>遗漏年份通过 Streamlined Filing 补报</li>
+        <li>直接关系 Covered Expatriate 测试③</li>
+      </ul>
+    </div>
+    <div class="card">
+      <p class="card-label">⑥ Medicare 决策（回国前1–2年）</p>
+      <ul class="bullets" style="margin-top: 0.4em;">
+        <li>Part B 停缴后每延1年 +10% 终生罚款</li>
+        <li>建议保留 Part B（$203/月）作回美兜底</li>
+        <li>趁 60 岁前购买中国商业大病险</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SLIDE 8: Q4 FBAR
+     ============================================================ -->
+<section class="slide content-slide" id="s8" data-index="7">
+  <div class="blob blob-gold" style="width:40vw;height:40vw;bottom:-5vh;left:-5vw;opacity:0.08;"></div>
+  <div class="slide-badge">08</div>
+
+  <div class="slide-header">
+    <p class="label reveal">Q4</p>
+    <div class="slide-rule reveal reveal-delay-1"></div>
+    <h2 class="reveal reveal-delay-1">FBAR：你必须申报哪些中国账户？</h2>
+  </div>
+
+  <div class="two-col reveal reveal-delay-2">
+    <div>
+      <h3 style="margin-bottom: var(--gap);">触发条件</h3>
+      <ul class="bullets">
+        <li>身份：美国人（公民 / 绿卡 / 税务居民）</li>
+        <li>境外账户合计，<em>任何时刻</em> 超过 <strong>$10,000</strong></li>
+        <li>"合计"：多账户加总，非单账户</li>
+      </ul>
+      <h3 style="margin-top: var(--gap); margin-bottom: var(--gap);">申报要点</h3>
+      <ul class="bullets">
+        <li>截止：4月15日，自动延期至10月15日</li>
+        <li>通过 FinCEN BSA E-Filing 免费提交</li>
+        <li><em>不附于税表</em>，单独提交</li>
+      </ul>
+    </div>
+    <div>
+      <table class="data-table">
+        <thead><tr><th>中国账户类型</th><th>是否申报</th></tr></thead>
+        <tbody>
+          <tr><td>银行储蓄账户</td><td class="warn">✅ 要报</td></tr>
+          <tr><td>A股证券账户</td><td class="warn">✅ 要报</td></tr>
+          <tr><td>余额宝 / 零钱通</td><td class="warn">✅ 要报</td></tr>
+          <tr><td>储蓄型保险（现金价值）</td><td class="warn">✅ 要报</td></tr>
+          <tr><td>父母账户（有签字权）</td><td class="warn">✅ 要报</td></tr>
+          <tr><td>中国房产</td><td class="ok">❌ 不报</td></tr>
+        </tbody>
+      </table>
+
+      <div class="warning-box" style="margin-top: var(--gap);">
+        <p>⚠️ <strong>漏报后果：</strong>非故意漏报最高 $16,536/次；故意漏报最高账户余额 50%。曾有 $200K 账户被罚 $800K 的案例。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SLIDE 9: 王女士的规划
+     ============================================================ -->
+<section class="slide content-slide" id="s9" data-index="8">
+  <div class="blob blob-terra" style="width:50vw;height:50vw;top:-15vh;right:-10vw;opacity:0.08;"></div>
+  <div class="slide-badge">09</div>
+
+  <div class="slide-header">
+    <p class="label reveal">王女士的处境</p>
+    <div class="slide-rule reveal reveal-delay-1"></div>
+    <h2 class="reveal reveal-delay-1">五个规划节点</h2>
+  </div>
+
+  <ol class="steps reveal reveal-delay-2">
+    <li><strong>立即</strong>：咨询跨境 CPA 和移民律师，确认 LTR 状态，审查历年 FBAR 申报，必要时通过 Streamlined Filing 补报</li>
+    <li><strong>今年起</strong>：启动 Roth Conversion Ladder，每年在 22–24% 税阶内最大化转换，5 年内将 $500K 中绝大部分转为 Roth</li>
+    <li><strong>今年起</strong>：每年有计划地实现 LTCG，重置应税账户中低成本基资产，大幅降低未来"假售"税负</li>
+    <li><strong>等放弃绿卡后</strong>：再考虑出售北京房产，届时仅面对中国个税，避开美国资本利得税</li>
+    <li><strong>回国前1–2年</strong>：保留 Medicare Part B；趁 55–60 岁健康状况良好，在中国购买终身续保大病险</li>
+  </ol>
+
+  <hr class="rule reveal reveal-delay-3">
+  <p class="reveal reveal-delay-4" style="font-size: var(--small-size); color: var(--ivory-dim);">
+    ⚠ 另需关注：丈夫在华是否有美国税务申报义务（Substantial Presence Test）；遗产规划中非美公民配偶的 QDOT 安排。
+  </p>
+</section>
+
+<!-- ============================================================
+     SLIDE 10: 参考文件
+     ============================================================ -->
+<section class="slide content-slide" id="s10" data-index="9">
+  <div class="blob blob-gold" style="width:45vw;height:45vw;bottom:-10vh;right:-5vw;opacity:0.08;"></div>
+  <div class="slide-badge">10</div>
+
+  <div class="slide-header">
+    <p class="label reveal">深入阅读</p>
+    <div class="slide-rule reveal reveal-delay-1"></div>
+    <h2 class="reveal reveal-delay-1">参考 Wiki 条目</h2>
+  </div>
+
+  <table class="data-table reveal reveal-delay-2">
+    <thead>
+      <tr>
+        <th>Wiki 条目</th>
+        <th>涵盖内容</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="wiki-link" href="https://github.com/austinxyz/wealth-llm-wiki/blob/main/wiki/%E4%B8%AD%E7%BE%8E%E5%AF%B9%E6%AF%94/LTR-8%E5%B9%B4%E7%AA%97%E5%8F%A3.md" target="_blank">LTR 8年窗口 ↗</a></td>
+        <td>长期居民认定标准、8年计算方法、三条应对路径</td>
+      </tr>
+      <tr>
+        <td><a class="wiki-link" href="https://github.com/austinxyz/wealth-llm-wiki/blob/main/wiki/%E4%B8%AD%E7%BE%8E%E5%AF%B9%E6%AF%94/Exit-Tax.md" target="_blank">Exit Tax ↗</a></td>
+        <td>离境税触发条件、Mark-to-Market 计算、豁免额度</td>
+      </tr>
+      <tr>
+        <td><a class="wiki-link" href="https://github.com/austinxyz/wealth-llm-wiki/blob/main/wiki/%E4%B8%AD%E7%BE%8E%E5%AF%B9%E6%AF%94/Covered-Expatriate-%E4%B8%89%E6%B5%8B%E8%AF%95.md" target="_blank">Covered Expatriate 三测试 ↗</a></td>
+        <td>净资产测试（$2M）、5年均税测试、合规测试详解</td>
+      </tr>
+      <tr>
+        <td><a class="wiki-link" href="https://github.com/austinxyz/wealth-llm-wiki/blob/main/wiki/%E4%B8%AD%E7%BE%8E%E5%AF%B9%E6%AF%94/%E5%9B%9E%E5%9B%BD%E5%89%8D%E8%B5%84%E4%BA%A7%E6%B8%85%E7%90%86.md" target="_blank">回国前资产清理 ↗</a></td>
+        <td>账户处置顺序、PFIC 清理、资本利得收割时机</td>
+      </tr>
+      <tr>
+        <td><a class="wiki-link" href="https://github.com/austinxyz/wealth-llm-wiki/blob/main/wiki/%E4%B8%AD%E7%BE%8E%E5%AF%B9%E6%AF%94/FBAR.md" target="_blank">FBAR ↗</a></td>
+        <td>申报门槛、涵盖账户类型、截止日期、违规罚款</td>
+      </tr>
+      <tr>
+        <td><a class="wiki-link" href="https://github.com/austinxyz/wealth-llm-wiki/blob/main/wiki/%E4%B8%AD%E7%BE%8E%E5%AF%B9%E6%AF%94/Medicare%E6%B5%B7%E5%A4%96%E7%AD%96%E7%95%A5.md" target="_blank">Medicare 海外策略 ↗</a></td>
+        <td>Part A/B/D 海外适用性、停保与复保规则、费用测算</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="reveal reveal-delay-3" style="font-size: var(--small-size); color: var(--ivory-dim); margin-top: var(--gap);">
+    每个 wiki 条目底部的"参考来源"节含有指向 raw_material/ 原始调研文章的链接。
+  </p>
+</section>
+
+<!-- ============================================================
+     SLIDE 11: CTA
+     ============================================================ -->
+<section class="slide" id="s12" data-index="10">
+  <div class="blob blob-gold" style="width:70vw;height:70vw;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0.1;"></div>
+
+  <div class="reveal" style="margin-bottom: clamp(0.5rem, 1.5vh, 1.5rem);">
+    <p class="label">用你自己的数据复现这份分析</p>
+  </div>
+  <div style="width:clamp(60px,12vw,120px); height:1px; background:var(--gold); margin: 0 auto clamp(1rem,3vh,2.5rem);" class="reveal reveal-delay-1"></div>
+  <h2 class="reveal reveal-delay-2" style="font-family: var(--font-serif); font-size: var(--h2-size); max-width: 600px; text-align:center;">
+    Fork 仓库 → 填写财务档案<br>→ 运行 /wealth-advise 中美双边资产
+  </h2>
+  <hr class="rule reveal reveal-delay-3" style="width:clamp(60px,15vw,150px); margin: clamp(1rem,3vh,2.5rem) auto;">
+  <div class="reveal reveal-delay-4" style="display:flex; flex-direction:column; align-items:center; gap: clamp(0.4rem, 1vh, 0.8rem);">
+    <p style="font-size: var(--body-size); color: var(--ivory);">完整使用说明见 <a class="wiki-link" href="https://github.com/austinxyz/wealth-llm-wiki/blob/main/publish/README.md" target="_blank">publish/README.md ↗</a></p>
+    <p style="font-size: var(--small-size); color: var(--ivory-dim);">output/ 目录已被 .gitignore 保护，个人数据不会上传 GitHub</p>
+    <p style="font-size: var(--small-size); color: var(--ivory-dim); margin-top:var(--gap);">本文内容仅供参考，不构成投资、税务或法律建议。<br>重大决策请咨询持牌跨境 CPA 和移民律师。</p>
+  </div>
+</section>
+
+<script>
+  /* =============================================
+     PRESENTATION CONTROLLER
+     ============================================= */
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const totalSlides = slides.length;
+  let currentIndex = 0;
+
+  /* Build nav dots */
+  const dotsContainer = document.getElementById('navDots');
+  slides.forEach((_, i) => {
+    const dot = document.createElement('button');
+    dot.className = 'dot';
+    dot.setAttribute('aria-label', `幻灯片 ${i + 1}`);
+    dot.addEventListener('click', () => goTo(i));
+    dotsContainer.appendChild(dot);
+  });
+
+  function updateUI() {
+    const dots = dotsContainer.querySelectorAll('.dot');
+    dots.forEach((d, i) => d.classList.toggle('active', i === currentIndex));
+    const pct = totalSlides > 1 ? (currentIndex / (totalSlides - 1)) * 100 : 100;
+    document.getElementById('progress').style.width = pct + '%';
+  }
+
+  /* Intersection Observer for reveal animations */
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const idx = slides.indexOf(entry.target);
+        currentIndex = idx;
+        updateUI();
+        entry.target.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+      }
+    });
+  }, { threshold: 0.5 });
+
+  slides.forEach(s => observer.observe(s));
+
+  function goTo(index) {
+    if (index < 0 || index >= totalSlides) return;
+    slides[index].scrollIntoView({ behavior: 'smooth' });
+  }
+
+  /* Keyboard navigation */
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowDown' || e.key === 'ArrowRight' || e.key === 'PageDown' || e.key === ' ') {
+      e.preventDefault();
+      goTo(currentIndex + 1);
+    } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft' || e.key === 'PageUp') {
+      e.preventDefault();
+      goTo(currentIndex - 1);
+    } else if (e.key === 'Home') {
+      goTo(0);
+    } else if (e.key === 'End') {
+      goTo(totalSlides - 1);
+    }
+  });
+
+  /* Wheel navigation — debounced */
+  let wheelLock = false;
+  document.addEventListener('wheel', e => {
+    if (wheelLock) return;
+    wheelLock = true;
+    goTo(e.deltaY > 0 ? currentIndex + 1 : currentIndex - 1);
+    setTimeout(() => { wheelLock = false; }, 800);
+  }, { passive: true });
+
+  /* Touch / swipe */
+  let touchStartY = 0;
+  document.addEventListener('touchstart', e => { touchStartY = e.touches[0].clientY; }, { passive: true });
+  document.addEventListener('touchend', e => {
+    const delta = touchStartY - e.changedTouches[0].clientY;
+    if (Math.abs(delta) > 40) goTo(delta > 0 ? currentIndex + 1 : currentIndex - 1);
+  }, { passive: true });
+
+  /* Init */
+  updateUI();
+</script>
+</body>
+</html>
