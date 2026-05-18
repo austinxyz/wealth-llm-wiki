@@ -328,9 +328,9 @@ Phase 3: 拿到现金 → 回到 Phase 1
 
 ## 待提炼为 wiki 条目
 
-- [ ] `wiki/投资品种/Covered-Call.md`
-- [ ] `wiki/投资品种/Cash-Secured-Put.md`
-- [ ] `wiki/投资品种/Wheel-Strategy.md`
-- [ ] `wiki/投资品种/Risk-Reversal.md`
-- [ ] `wiki/投资品种/Collar.md`
-- [ ] `wiki/投资品种/Options-DTE选择.md`
+- [x] `wiki/投资品种/Covered-Call.md` — 2026-05-18
+- [x] `wiki/投资品种/Cash-Secured-Put.md` — 2026-05-18
+- [x] `wiki/投资品种/Wheel-Strategy.md` — 2026-05-18
+- [x] `wiki/投资品种/Risk-Reversal.md` — 2026-05-18
+- [x] `wiki/投资品种/Collar.md` — 2026-05-18
+- [x] `wiki/投资品种/Options-DTE选择.md` — 2026-05-18
