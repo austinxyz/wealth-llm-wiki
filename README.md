@@ -2,6 +2,20 @@
 
 面向在美华人的财富规划知识体系，灵感来自 [Karpathy 的 LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)。包含 100+ 结构化知识条目、虚构家庭案例文章、空白财务档案模板，以及配套 Claude Code AI 分析工具。
 
+## 🎓 兴趣小组学员看这里
+
+3 步开始：
+
+1. 安装 [Claude Code](https://claude.com/claude-code)
+2. `git clone https://github.com/austinxyz/wealth-llm-wiki && cd wealth-llm-wiki`
+3. 运行 `claude`，然后试试 `/wealth-freshness`（扫描知识时效）
+
+核心 skill 共 5 个：`/wealth-advise`（个人化建议）、`/wealth-extract`（文章入库）、`/wealth-sync`（同步 wiki）、`/wealth-audit`（质量审计）、`/wealth-freshness`（时效扫描）。
+
+你的个人财务数据放 `output/` 目录（已被 .gitignore，永不会被提交）。详细工作流见兴趣小组的《使用手册》。
+
+更新知识库：`git pull`。欢迎 PR 贡献条目。
+
 ## 目录结构
 
 ```
