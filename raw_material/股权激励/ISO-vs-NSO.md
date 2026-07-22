@@ -1,3 +1,20 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://carta.com/learn/equity/stock-options/taxes/"
+  - "https://darrowwealthmanagement.com/blog/how-are-stock-options-taxed/"
+  - "https://www.thestartuplawblog.com/blog/iso-vs-nso-stock-options-complete-guide/"
+  - "https://www.cooleygo.com/isos-v-nsos-whats-the-difference/"
+  - "https://www.brightonjones.com/blog/iso-vs-nso/"
+  - "https://www.vestingstrategy.com/guides/iso-vs-nso"
+  - "https://qubit.capital/blog/iso-vs-nso-options"
+  - "https://www.dwt.com/blogs/startup-law-blog/2020/07/differences-between-iso-nso"
+  - "https://www.icanpitch.com/blog/iso-vs-nso-stock-options-tax-guide"
+  - "https://www.orrick.com/en/tech-studio/resources/faq/whats-the-difference-between-an-iso-and-an-nso"
+---
+
 # ISO vs NSO（股票期权税务对比）
 
 **收集日期：** 2026-04-16

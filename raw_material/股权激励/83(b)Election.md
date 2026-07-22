@@ -1,3 +1,20 @@
+---
+freshness: evergreen
+valid_until: ""
+collected: 2026-04-16
+source_url:
+  - "https://carta.com/learn/equity/stock-options/taxes/83b-election/"
+  - "https://www.thestartuplawblog.com/blog/83b-election-guide/"
+  - "https://www.citizensbank.com/private-banking/insights/83b-election-and-early-exercise.aspx"
+  - "https://www.cakeequity.com/guides/83b-election"
+  - "https://darrowwealthmanagement.com/blog/83b-election-restricted-stock-options/"
+  - "https://smartasset.com/taxes/83b-election"
+  - "https://www.chase.com/personal/investments/learning-and-insights/article/stock-based-compensation-and-the-section-83b-election"
+  - "https://manual.compoundplanning.com/chapters/early-exercising-and-83-b-elections"
+  - "https://www.cooleygo.com/what-is-a-section-83b-election/"
+  - "https://creativeplanning.com/insights/investment/83b-election-impact/"
+---
+
 # 83(b) Election（83(b) 选举 / 提前纳税选择）
 
 **收集日期：** 2026-04-16

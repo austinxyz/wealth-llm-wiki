@@ -1,3 +1,20 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://workplaceservices.fidelity.com/bin-public/070_NB_SPS_Pages/documents/dcl/shared/StockPlanServices/ESPP%20Qualifying%20and%20Disqualifying%20Dispositions.pdf"
+  - "https://www.morganstanley.com/atwork/employees/learning-center/articles/qualifying-disposition-espp"
+  - "https://eac.schwab.com/equity101/espp"
+  - "https://turbotax.intuit.com/tax-tips/investments-and-taxes/employee-stock-purchase-plans/L8NgMFpFX"
+  - "https://www.phoenixstrategy.group/blog/qualifying-vs-disqualifying-espp-sales-tax-differences"
+  - "https://smartasset.com/investing/espp-qualifying-disposition"
+  - "https://legalclarity.org/when-is-the-holding-period-met-for-an-espp/"
+  - "https://zajacgrp.com/insights/espp-tax-rules-you-need-to-know-and-how-theyre-affected-by-qualifying-dispositions/"
+  - "https://zajacgrp.com/insights/how-a-qualifying-disposition-impacts-your-espp/"
+  - "https://smartfinance.fyi/articles/stock-options-espp-tax-guide-iso-nso-qualifying-dispositions"
+---
+
 # ESPP（Employee Stock Purchase Plan，员工股票购买计划）
 
 **收集日期：** 2026-04-16

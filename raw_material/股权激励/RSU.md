@@ -1,3 +1,20 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://turbotax.intuit.com/tax-tips/investments-and-taxes/how-to-report-rsus-or-stock-grants-on-your-tax-return/L55yZieu0"
+  - "https://www.schwab.com/learn/story/rsu-taxes-and-psu-taxes"
+  - "https://unclekam.com/tax-write-offs/deductions/restricted-stock-units-tax/"
+  - "https://darrowwealthmanagement.com/blog/restricted-stock-units/"
+  - "https://safelandingfinancial.com/rsus/"
+  - "https://www.nerdwallet.com/investing/learn/how-are-rsus-taxed"
+  - "https://www.plancorp.com/blog/restricted-stock-units-are-you-under-withheld-for-taxes"
+  - "https://summitry.com/blog/how-are-rsus-taxed/"
+  - "https://navalign.com/rsu-taxes-explained/"
+  - "https://www.ametrinewealth.com/insights/understanding-your-rsus-how-they-are-taxed-and-what-you-need-to-know"
+---
+
 # RSU（Restricted Stock Units，限制性股票单位）
 
 **收集日期：** 2026-04-16
