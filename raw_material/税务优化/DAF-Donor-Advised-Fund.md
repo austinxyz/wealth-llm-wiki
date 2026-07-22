@@ -2,9 +2,10 @@
 title: "DAF（Donor-Advised Fund，慈善捐赠基金）"
 freshness: annual
 valid_until: 2026-12-31
-collected: 2026-04-16
+collected: 2026-07-22
 tax_year: 2026
 source_url:
+  - "https://www.reninc.com/blog/what-every-advisor-needs-to-know-about-charitable-deductions-in-2026/"
   - "https://www.kiplinger.com/investing/how-a-donor-advised-fund-can-slash-your-tax-bill-with-charitable-bunching"
   - "https://www.dafgiving360.org/tax-law-changes"
   - "https://www.dafgiving360.org/bunching-charitable-contributions"
@@ -56,6 +57,10 @@ source_url:
 ### 含义
 
 这两个变化使 **"bunching"（集中扣除）策略更重要**，因为能让一年跨过地板、把小捐赠效益集中。
+
+> **澄清（2026-07-22 复核）**：0.5% AGI floor **对 Itemizer 的 DAF 捐赠同样适用，没有豁免**。OBBBA 中与 DAF 相关的排除条款，针对的是另一项"非 Itemizer 的临时慈善扣除"——该条款明确**排除**了捐给 DAF/支持性组织/私人基金会的部分不能计入非 Itemizer 的扣除额度。这与本文讨论的 Itemizer 0.5% floor 是两个不同条款，互不影响。因此本文"0.5% floor 让 bunching + DAF 更重要"的论证方向成立。
+
+
 
 ## 双重税收优惠（Double Benefit）
 

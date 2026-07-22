@@ -2,10 +2,11 @@
 title: "Medicare Part A/B/C/D + Medigap"
 freshness: annual
 valid_until: 2026-12-31
-collected: 2026-04-16
+collected: 2026-07-22
 tax_year: 2026
 source_url:
   - "https://www.cms.gov/newsroom/fact-sheets/2026-medicare-parts-b-premiums-deductibles"
+  - "https://thefinancebuff.com/medicare-irmaa-income-brackets.html"
   - "https://www.medicare.gov/health-drug-plans/medigap/basics/compare-plan-benefits"
   - "https://www.medicare.gov/publications/02110-medigap-guide-health-insurance.pdf"
   - "https://www.kiplinger.com/retirement/medicare/what-you-will-pay-for-medicare-in-2026"
@@ -73,14 +74,16 @@ Medicare = 美国联邦政府为 **65 岁及以上** 人群（或部分残疾人
 
 基于 2 年前的 MAGI（即 2026 看 2024 tax return）：
 
-| 2024 MAGI（MFJ） | 2026 Part B 总保费 | 2026 Part D 附加 |
-|----------------|------------------|------------------|
-| ≤$212,000 | $202.90 | 标准 |
-| $212k-$266k | $284.00 | +$13.70 |
-| $266k-$334k | $405.20 | +$35.30 |
-| $334k-$400k | $527.40 | +$57.00 |
-| $400k-$750k | $649.00 | +$78.60 |
-| >$750k | $680.80 | +$85.80 |
+| 2024 MAGI（MFJ） | 2026 Part B 总保费 |
+|----------------|------------------|
+| ≤$218,000 | $202.90 |
+| $218,001-$274,000 | $284.06 |
+| $274,001-$342,000 | $405.80 |
+| $342,001-$410,000 | $527.54 |
+| $410,001-$750,000 | $649.28 |
+| >$750,000 | $689.86 |
+
+（Part D IRMAA 附加与 Part B 使用相同 MAGI 分档，但附加金额独立公布，本文暂未逐档列出；CMS 官方 Fact Sheet 为准）
 
 **每人各自付费**（MFJ 的夫妻各自按各自份额计算）。
 
