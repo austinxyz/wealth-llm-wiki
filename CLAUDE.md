@@ -20,6 +20,34 @@
 - 含个人数据的分析产物一律写入 `output/`（已被 `.gitignore`）
 - 在 `wiki/` 条目里使用通用术语和示例，不引用用户具体持仓
 
+### Raw Material 元数据 Schema（严格遵守）
+
+每个 `raw_material/**/*.md` 必须有统一 frontmatter：
+
+```yaml
+---
+title: <文件主题>
+collected: YYYY-MM-DD           # 收集日期
+source_url:                      # 来源 URL 列表（尽量含官方来源）
+  - https://www.irs.gov/...
+freshness: <evergreen | annual | volatile>
+valid_until: YYYY-MM-DD          # annual/volatile 必填；evergreen 留空
+tax_year: YYYY                   # 可选，税务数字类文件专用
+---
+```
+
+**freshness 分级**：
+
+| 级别 | 含义 | 例子 | valid_until |
+|------|------|------|------|
+| `evergreen` | 概念性知识，基本不变 | 4% 规则、Bucket Strategy | 留空 |
+| `annual` | 每年固定更新 | 税阶、标准扣除、IRA/401K limit | 当年 12-31 |
+| `volatile` | 随政策随时可能变 | OBBBA 新规、购汇额度、Medicare 保费 | 收集日 + 6 个月 |
+
+wiki 条目 frontmatter 相应新增一个字段：`freshness`，继承自 source 的 raw_material（多来源取最不稳定档：volatile > annual > evergreen）。
+
+配套 skill：`/wealth-audit <文件>`（四维质量审计）、`/wealth-freshness [--update]`（时效扫描与更新）。审计报告写入 `raw_material/_audit/`。
+
 ### Wiki 条目 Schema（严格遵守）
 
 每个 `wiki/<分类>/*.md` 必须有统一 frontmatter：
