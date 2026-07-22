@@ -1,3 +1,18 @@
+---
+freshness: evergreen
+valid_until: ""
+collected: 2026-04-16
+source_url:
+  - "https://www.financialsamurai.com/what-is-barista-fire-a-hybrid-between-fat-fire-and-lean-fire/"
+  - "https://thepoorswiss.com/what-kind-of-fire-are-you/"
+  - "https://www.fool.com/retirement/2025/02/15/fat-fire-vs-coast-fire-vs-barista-fire-meanings/"
+  - "https://firenum.com/fire-types"
+  - "https://projectionlab.com/financial-terms/barista-fire"
+  - "https://projectionlab.com/financial-terms/fat-fire"
+  - "https://nickwolny.com/what-is-coast-fire/"
+  - "https://www.moneyhub.co.nz/fire-vs-leanfire-vs-fatfire-vs-barristafire-vs-coastfire.html"
+---
+
 # FIRE 运动：Lean / Fat / Coast / Barista FIRE
 
 **收集日期：** 2026-04-16

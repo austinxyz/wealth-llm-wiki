@@ -1,3 +1,17 @@
+---
+freshness: evergreen
+valid_until: ""
+collected: 2026-04-16
+source_url:
+  - "https://www.kitces.com/blog/managing-portfolio-size-effect-with-bond-tent-in-retirement-red-zone/"
+  - "https://www.kitces.com/blog/should-equity-exposure-decrease-in-retirement-or-is-a-rising-equity-glidepath-actually-better/"
+  - "https://www.kitces.com/blog/accelerating-the-rising-equity-glidepath-with-treasury-bills-as-portfolio-ballast/"
+  - "https://earlyretirementnow.com/2017/09/13/the-ultimate-guide-to-safe-withdrawal-rates-part-19-equity-glidepaths/"
+  - "https://www.financialplanningassociation.org/article/journal/JAN14-reducing-retirement-risk-rising-equity-glide-path"
+  - "https://retirementresearcher.com/use-rising-equity-glide-path-retirement/"
+  - "https://hackyourwealth.com/asset-allocation"
+---
+
 # Bond Tent 与 Rising Equity Glidepath
 
 **收集日期：** 2026-04-16

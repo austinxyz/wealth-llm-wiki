@@ -1,3 +1,16 @@
+---
+freshness: evergreen
+valid_until: ""
+collected: 2026-04-16
+source_url:
+  - "https://www.schwab.com/learn/story/timing-matters-understanding-sequence-returns-risk"
+  - "https://www.kiplinger.com/retirement/retirement-planning/this-stock-market-risk-could-shrink-your-retirement-nest-egg"
+  - "https://www.cnbc.com/2026/04/02/market-volatility-retirement-sequence-of-returns-risk.html"
+  - "https://retirementresearcher.com/why-sequence-of-return-risk-matters-for-your-retirement-income/"
+  - "https://www.americancentury.com/insights/sequence-risk/"
+  - "https://www.bullseyeretirement.com/articles/sequence-of-returns-risk"
+---
+
 # Sequence of Returns Risk（收益顺序风险）
 
 **收集日期：** 2026-04-16

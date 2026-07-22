@@ -1,3 +1,16 @@
+---
+freshness: evergreen
+valid_until: ""
+collected: 2026-04-16
+source_url:
+  - "https://www.schwab.com/learn/story/phasing-retirement-with-bucket-drawdown-strategy"
+  - "https://www.britannica.com/money/retirement-bucket-strategy"
+  - "https://www.morningstar.com/portfolios/bucket-approach-building-retirement-portfolio"
+  - "https://smartasset.com/retirement/retirement-bucket-strategy"
+  - "https://www.thepeakfp.com/blog/retirement-bucket-strategy-comprehensive-guide"
+  - "https://money.com/retirement-bucket-strategy-explained/"
+---
+
 # Bucket Strategy（分桶法）
 
 **收集日期：** 2026-04-16
