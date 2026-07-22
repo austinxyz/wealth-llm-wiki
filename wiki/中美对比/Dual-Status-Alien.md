@@ -5,6 +5,7 @@ tags: [中美对比, Dual-Status, 年内身份变更, 1040, 1040NR]
 source: "[[raw_material/身份税务/绿卡vs公民vs非居民]]"
 updated: 2026-04-20
 status: draft
+freshness: annual
 ---
 
 ## 定义

@@ -5,6 +5,7 @@ tags: [保险规划, 失能险, 长期失能, 收入保障, Own-Occupation]
 source: "[[raw_material/家庭财务基础/保险规划总纲]]"
 updated: 2026-04-20
 status: draft
+freshness: volatile
 ---
 
 ## 定义

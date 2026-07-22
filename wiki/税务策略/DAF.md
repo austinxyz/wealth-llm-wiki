@@ -5,6 +5,7 @@ tags: [慈善捐赠, DAF, Bunching, 增值证券]
 source: "[[raw_material/税务优化/DAF-Donor-Advised-Fund]]"
 updated: 2026-04-16
 status: draft
+freshness: annual
 ---
 
 ## 定义

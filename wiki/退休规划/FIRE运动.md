@@ -5,6 +5,7 @@ tags: [退休规划, 财务独立, FIRE, 早退休]
 source: "[[raw_material/退休规划/FIRE运动]]"
 updated: 2026-04-16
 status: draft
+freshness: evergreen
 ---
 
 ## 定义

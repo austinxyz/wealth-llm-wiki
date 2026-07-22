@@ -5,6 +5,7 @@ tags: [税务规则, IRS, 资本损失]
 source: "[[raw_material/投资策略建议]]"
 updated: 2026-04-16
 status: stable
+freshness: volatile
 ---
 
 ## 定义

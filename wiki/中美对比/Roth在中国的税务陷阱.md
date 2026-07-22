@@ -5,6 +5,7 @@ tags: [中美对比, Roth-IRA, 中国税, 回国, 免税陷阱]
 source: "[[raw_material/身份税务/退休回国税务]]"
 updated: 2026-04-20
 status: draft
+freshness: annual
 ---
 
 ## 定义

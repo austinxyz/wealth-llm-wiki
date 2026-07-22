@@ -5,6 +5,7 @@ tags: [家庭财务, HYSA, SGOV, 现金管理, 加州税, 税后收益]
 source: "[[raw_material/家庭财务基础/紧急基金]]"
 updated: 2026-04-20
 status: draft
+freshness: evergreen
 ---
 
 ## 定义

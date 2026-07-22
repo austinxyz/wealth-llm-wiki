@@ -5,6 +5,7 @@ tags: [ETF, 现金等价物, 州税豁免, 短期国债]
 source: "[[raw_material/投资策略建议]]"
 updated: 2026-04-16
 status: stable
+freshness: volatile
 ---
 
 ## 定义

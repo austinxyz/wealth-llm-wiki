@@ -5,6 +5,7 @@ tags: [Exit-Tax, 离境税, 绿卡, LTR, Covered-Expatriate, Form-8854, 身份�
 source: "[[raw_material/身份税务/Exit-Tax]]"
 updated: 2026-04-16
 status: draft
+freshness: annual
 ---
 
 # Exit Tax（离境税）

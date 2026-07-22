@@ -5,6 +5,7 @@ tags: [中美对比, FTC, FEIE, Form-2555, 跨境工作, 海外居住]
 source: "[[raw_material/跨境税务/Foreign-Tax-Credit]]"
 updated: 2026-04-20
 status: draft
+freshness: annual
 ---
 
 ## 定义

@@ -5,6 +5,7 @@ tags: [REITs, 房产, 股息, 税务优化, QBI, 资产配置]
 source: "[[raw_material/投资品种-另类/REITs]]"
 updated: 2026-04-16
 status: draft
+freshness: annual
 ---
 
 # REITs（Real Estate Investment Trusts）

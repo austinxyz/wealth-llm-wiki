@@ -5,6 +5,7 @@ tags: [退休规划, 提取策略, 风险管理]
 source: "[[raw_material/退休规划/Bucket-Strategy]]"
 updated: 2026-04-16
 status: draft
+freshness: evergreen
 ---
 
 ## 定义

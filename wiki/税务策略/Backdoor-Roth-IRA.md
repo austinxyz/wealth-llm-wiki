@@ -5,6 +5,7 @@ tags: [Roth转换, 高收入, Pro-Rata, 税务规划]
 source: "[[raw_material/退休账户/Backdoor-Roth-IRA]]"
 updated: 2026-04-16
 status: draft
+freshness: annual
 ---
 
 ## 定义

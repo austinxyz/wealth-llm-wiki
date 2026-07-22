@@ -5,6 +5,7 @@ tags: [SPIVA, 被动投资, 指数基金, Bogleheads, 费率, 主动基金]
 source: "[[raw_material/投资品种-股票基金/主动vs被动投资]]"
 updated: 2026-04-16
 status: draft
+freshness: evergreen
 ---
 
 # 主动 vs 被动投资

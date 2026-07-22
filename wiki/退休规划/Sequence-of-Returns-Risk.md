@@ -5,6 +5,7 @@ tags: [退休规划, 风险管理, 安全提取率]
 source: "[[raw_material/退休规划/Sequence-of-Returns-Risk]]"
 updated: 2026-04-16
 status: draft
+freshness: evergreen
 ---
 
 ## 定义

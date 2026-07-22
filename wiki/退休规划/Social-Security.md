@@ -5,6 +5,7 @@ tags: [退休规划, 社会保障, 社保, 领取策略]
 source: "[[raw_material/社保医保/Social-Security-领取策略]]"
 updated: 2026-04-16
 status: draft
+freshness: annual
 ---
 
 ## 定义

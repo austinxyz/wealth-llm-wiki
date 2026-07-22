@@ -5,6 +5,7 @@ tags: [中美对比, FBAR, Form-8938, 对比, 合规]
 source: "[[raw_material/跨境税务/Form-8938]]"
 updated: 2026-04-20
 status: draft
+freshness: annual
 ---
 
 ## 定义

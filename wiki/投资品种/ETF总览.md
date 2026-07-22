@@ -5,6 +5,7 @@ tags: [ETF, 指数基金, 分散投资]
 source: "[[raw_material/中美财富管理体系对比分析]]"
 updated: 2026-04-16
 status: stable
+freshness: volatile
 ---
 
 ## 定义

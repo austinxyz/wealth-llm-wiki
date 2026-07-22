@@ -5,6 +5,7 @@ tags: [中美对比, Medicare, 回国, 海外医疗, 国际健康险]
 source: "[[raw_material/身份税务/退休回国税务]]"
 updated: 2026-04-20
 status: draft
+freshness: annual
 ---
 
 ## 定义

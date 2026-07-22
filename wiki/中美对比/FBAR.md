@@ -5,6 +5,7 @@ tags: [FBAR, FinCEN, 境外账户, 中国资产, 合规, 报告义务]
 source: "[[raw_material/跨境税务/FBAR]]"
 updated: 2026-04-16
 status: draft
+freshness: annual
 ---
 
 # FBAR（FinCEN Form 114）

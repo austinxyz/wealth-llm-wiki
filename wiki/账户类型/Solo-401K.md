@@ -5,6 +5,7 @@ tags: [退休账户, 自雇, 税前供款, 美国]
 source: "[[raw_material/退休账户/Solo-401K-vs-SEP-IRA]]"
 updated: 2026-04-16
 status: draft
+freshness: annual
 ---
 
 ## 定义

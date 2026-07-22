@@ -5,6 +5,7 @@ tags: [中美对比, 绿卡, Tie-Breaker, Exit-Tax, IRC-7701, 陷阱]
 source: "[[raw_material/身份税务/双重居民]]"
 updated: 2026-04-20
 status: draft
+freshness: evergreen
 ---
 
 ## 定义

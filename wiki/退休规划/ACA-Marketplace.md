@@ -5,6 +5,7 @@ tags: [退休规划, 医疗保险, ACA, FIRE, 健保补贴]
 source: "[[raw_material/社保医保/ACA-Marketplace]]"
 updated: 2026-04-16
 status: draft
+freshness: annual
 ---
 
 ## 定义

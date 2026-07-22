@@ -5,6 +5,7 @@ tags: [遗产规划, 受益人, SECURE-Act, Per-Stirpes]
 source: "[[raw_material/遗产规划/Beneficiary-Designation]]"
 updated: 2026-04-16
 status: draft
+freshness: evergreen
 ---
 
 ## 定义

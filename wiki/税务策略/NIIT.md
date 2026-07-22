@@ -5,6 +5,7 @@ tags: [NIIT, 附加税, 投资收入, 高收入, Form-8960]
 source: "[[raw_material/税务基础/NIIT]]"
 updated: 2026-04-16
 status: draft
+freshness: annual
 ---
 
 ## 定义

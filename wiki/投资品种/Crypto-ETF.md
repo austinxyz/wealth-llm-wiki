@@ -5,6 +5,7 @@ tags: [加密货币, Bitcoin, ETF, IBIT, ETHA, Property, 税务]
 source: "[[raw_material/投资品种-另类/Crypto-Gold-Commodities]]"
 updated: 2026-04-16
 status: draft
+freshness: volatile
 ---
 
 # Crypto ETF（加密货币 ETF）

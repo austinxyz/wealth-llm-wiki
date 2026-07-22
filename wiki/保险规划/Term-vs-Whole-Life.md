@@ -5,6 +5,7 @@ tags: [保险规划, 人寿保险, Term-Life, Whole-Life, 遗产规划]
 source: "[[raw_material/家庭财务基础/保险规划总纲]]"
 updated: 2026-04-20
 status: draft
+freshness: volatile
 ---
 
 ## 定义

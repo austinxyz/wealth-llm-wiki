@@ -5,6 +5,7 @@ tags: [资产配置, 税务优化, 账户选择, 税后收益]
 source: "[[raw_material/税务优化/Asset-Location]]"
 updated: 2026-04-16
 status: draft
+freshness: annual
 ---
 
 ## 定义

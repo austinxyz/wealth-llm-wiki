@@ -5,6 +5,7 @@ tags: [杠杆ETF, TQQQ, 高风险, 衰减]
 source: "[[raw_material/投资策略建议]]"
 updated: 2026-04-16
 status: stable
+freshness: volatile
 ---
 
 ## 定义

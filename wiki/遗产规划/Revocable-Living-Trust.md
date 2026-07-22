@@ -5,6 +5,7 @@ tags: [遗产规划, Trust, Probate, 加州]
 source: "[[raw_material/遗产规划/Trust-类型]]"
 updated: 2026-04-16
 status: draft
+freshness: annual
 ---
 
 ## 定义

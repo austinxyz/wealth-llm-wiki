@@ -5,6 +5,7 @@ tags: [机器人投顾, 自动再平衡, 税损收割]
 source: "[[raw_material/国内外理财对比调研]]"
 updated: 2026-04-16
 status: stable
+freshness: volatile
 ---
 
 ## 定义

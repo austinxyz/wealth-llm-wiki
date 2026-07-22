@@ -5,6 +5,7 @@ tags: [家庭财务, 储蓄, 行为金融, 理财哲学]
 source: "[[raw_material/家庭财务基础/现金流预算]]"
 updated: 2026-04-20
 status: draft
+freshness: evergreen
 ---
 
 ## 定义

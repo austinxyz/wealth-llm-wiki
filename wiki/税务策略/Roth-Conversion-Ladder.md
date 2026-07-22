@@ -5,6 +5,7 @@ tags: [早退休, Roth转换, FIRE, 五年规则]
 source: "[[raw_material/税务优化/Roth-Conversion-Ladder]]"
 updated: 2026-04-16
 status: draft
+freshness: annual
 ---
 
 ## 定义

@@ -5,6 +5,7 @@ tags: [中美对比, 双重居民, Dual-Resident, 身份税务, 全球所得]
 source: "[[raw_material/身份税务/双重居民]]"
 updated: 2026-04-20
 status: draft
+freshness: evergreen
 ---
 
 ## 定义

@@ -5,6 +5,7 @@ tags: [中美对比, PFIC, QEF, MTM, Default, Election, 税务选择]
 source: "[[raw_material/跨境税务/PFIC]]"
 updated: 2026-04-20
 status: draft
+freshness: evergreen
 ---
 
 ## 定义

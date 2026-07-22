@@ -5,6 +5,7 @@ tags: [退休规划, 医疗保险, Medicare, IRMAA]
 source: "[[raw_material/社保医保/Medicare-ABCD-Medigap]]"
 updated: 2026-04-16
 status: draft
+freshness: annual
 ---
 
 ## 定义

@@ -5,6 +5,7 @@ tags: [中美对比, FATCA, Form-8938, 跨境申报, 信息交换]
 source: "[[raw_material/跨境税务/FATCA]]"
 updated: 2026-04-20
 status: draft
+freshness: volatile
 ---
 
 ## 定义

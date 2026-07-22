@@ -5,6 +5,7 @@ tags: [AMT, 替代最低税, ISO, SALT, Form-6251]
 source: "[[raw_material/税务基础/AMT]]"
 updated: 2026-04-16
 status: draft
+freshness: annual
 ---
 
 ## 定义

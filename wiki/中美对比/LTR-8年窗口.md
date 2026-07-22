@@ -5,6 +5,7 @@ tags: [中美对比, LTR, Long-Term-Resident, 绿卡, Exit-Tax, 8年]
 source: "[[raw_material/身份税务/Exit-Tax]]"
 updated: 2026-04-20
 status: draft
+freshness: annual
 ---
 
 ## 定义

@@ -5,6 +5,7 @@ tags: [中美对比, PFIC, 中国基金, 理财, 储蓄险, 识别]
 source: "[[raw_material/跨境税务/PFIC]]"
 updated: 2026-04-20
 status: draft
+freshness: evergreen
 ---
 
 ## 定义

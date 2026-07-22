@@ -5,6 +5,7 @@ tags: [债券, Bond-Ladder, 固定收益, 退休收入, 利率风险, Duration]
 source: "[[raw_material/投资品种-固定收益/Bond-Ladder-Duration]]"
 updated: 2026-04-16
 status: draft
+freshness: volatile
 ---
 
 # Bond Ladder（债券阶梯）

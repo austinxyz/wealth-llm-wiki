@@ -5,6 +5,7 @@ tags: [退休规划, 资产配置, 风险管理, 序列收益风险]
 source: "[[raw_material/退休规划/Bond-Tent]]"
 updated: 2026-04-16
 status: draft
+freshness: evergreen
 ---
 
 ## 定义

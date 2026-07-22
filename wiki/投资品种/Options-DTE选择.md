@@ -5,6 +5,7 @@ tags: [期权, DTE, Theta-Decay, 时间价值]
 source: "[[raw_material/投资品种-另类/Options-策略]]"
 updated: 2026-05-18
 status: stable
+freshness: volatile
 ---
 
 ## 定义

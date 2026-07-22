@@ -5,6 +5,7 @@ tags: [ESPP, 员工股票购买计划, 折扣, Lookback, Qualifying-Disposition,
 source: "[[raw_material/股权激励/ESPP]]"
 updated: 2026-04-16
 status: draft
+freshness: annual
 ---
 
 # ESPP（Employee Stock Purchase Plan，员工股票购买计划）

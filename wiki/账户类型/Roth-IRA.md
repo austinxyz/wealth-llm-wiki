@@ -5,6 +5,7 @@ tags: [退休账户, 免税增值, 美国, Roth]
 source: "[[raw_material/年金知识与是否需要的分析]]"
 updated: 2026-04-16
 status: stable
+freshness: volatile
 ---
 
 ## 定义

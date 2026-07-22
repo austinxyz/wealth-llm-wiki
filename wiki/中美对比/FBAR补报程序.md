@@ -5,6 +5,7 @@ tags: [中美对比, FBAR, 补报, Streamlined, Delinquent, 合规]
 source: "[[raw_material/跨境税务/FBAR]]"
 updated: 2026-04-20
 status: draft
+freshness: annual
 ---
 
 ## 定义

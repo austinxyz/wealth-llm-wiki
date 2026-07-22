@@ -5,6 +5,7 @@ tags: [中美对比, Covered-Expatriate, Exit-Tax, Net-Worth, 合规]
 source: "[[raw_material/身份税务/Exit-Tax]]"
 updated: 2026-04-20
 status: draft
+freshness: annual
 ---
 
 ## 定义

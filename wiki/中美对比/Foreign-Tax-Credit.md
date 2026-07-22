@@ -5,6 +5,7 @@ tags: [中美对比, FTC, Form-1116, 境外税收抵免, 双重征税]
 source: "[[raw_material/跨境税务/Foreign-Tax-Credit]]"
 updated: 2026-04-20
 status: draft
+freshness: annual
 ---
 
 ## 定义

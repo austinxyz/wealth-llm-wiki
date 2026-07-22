@@ -5,6 +5,7 @@ tags: [自雇, Section199A, pass-through, 税务优化]
 source: "[[raw_material/税务优化/QBI-Deduction]]"
 updated: 2026-04-16
 status: draft
+freshness: annual
 ---
 
 ## 定义

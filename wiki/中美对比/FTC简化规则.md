@@ -5,6 +5,7 @@ tags: [中美对比, FTC, 简化规则, 1099-DIV, 小额抵免]
 source: "[[raw_material/跨境税务/Foreign-Tax-Credit]]"
 updated: 2026-04-20
 status: draft
+freshness: annual
 ---
 
 ## 定义

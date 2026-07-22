@@ -5,6 +5,7 @@ tags: [ETF, 期权, 月度收入, Covered-Call, JEPI, QYLD]
 source: "[[raw_material/投资品种-另类/Options-Income-ETF]]"
 updated: 2026-05-18
 status: stable
+freshness: volatile
 ---
 
 ## 定义

@@ -5,6 +5,7 @@ tags: [TDF, 目标日期基金, 退休, Glide-Path, 401K, 被动投资]
 source: "[[raw_material/投资品种-股票基金/Target-Date-Fund]]"
 updated: 2026-04-16
 status: draft
+freshness: evergreen
 ---
 
 # Target-Date Fund（目标日期基金）

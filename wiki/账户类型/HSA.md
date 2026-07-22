@@ -5,6 +5,7 @@ tags: [健康储蓄, 三重税优, HDHP, 美国]
 source: "[[raw_material/退休账户/HSA]]"
 updated: 2026-04-16
 status: draft
+freshness: annual
 ---
 
 ## 定义

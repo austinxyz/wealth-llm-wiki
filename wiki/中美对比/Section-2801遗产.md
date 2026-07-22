@@ -5,6 +5,7 @@ tags: [中美对比, IRC-2801, Exit-Tax, 遗产税, 赠与税, Covered-Expatriat
 source: "[[raw_material/身份税务/Exit-Tax]]"
 updated: 2026-04-20
 status: draft
+freshness: annual
 ---
 
 ## 定义

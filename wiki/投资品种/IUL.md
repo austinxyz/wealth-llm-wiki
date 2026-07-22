@@ -5,6 +5,7 @@ tags: [保险, IUL, 指数型万能寿险, 税务]
 source: "[[raw_material/年金知识与是否需要的分析]]"
 updated: 2026-04-16
 status: stable
+freshness: evergreen
 ---
 
 ## 定义

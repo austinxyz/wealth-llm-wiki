@@ -5,6 +5,7 @@ tags: [市政债, Muni, 双免税, 加州, TEY, AMT, 固定收益]
 source: "[[raw_material/投资品种-固定收益/Corporate-Muni-Bonds]]"
 updated: 2026-04-16
 status: draft
+freshness: volatile
 ---
 
 # Municipal Bonds（市政债）

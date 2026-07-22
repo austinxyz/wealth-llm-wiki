@@ -5,6 +5,7 @@ tags: [教育储蓄, 免税增值, 529, 美国]
 source: "[[raw_material/教育储蓄/529-Plan]]"
 updated: 2026-04-16
 status: draft
+freshness: annual
 ---
 
 ## 定义
