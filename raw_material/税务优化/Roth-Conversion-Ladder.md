@@ -1,3 +1,17 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.nerdwallet.com/retirement/learn/roth-conversion-ladder"
+  - "https://choosefi.com/tax-strategies/roth-conversion-ladder"
+  - "https://www.madfientist.com/how-to-access-retirement-funds-early/"
+  - "https://www.iwillteachyoutoberich.com/roth-conversion-ladder/"
+  - "https://thecollegeinvestor.com/77049/roth-conversion-ladder-explained/"
+  - "https://www.northwesternmutual.com/life-and-money/roth-conversion-ladder/"
+  - "https://www.farther.com/foundations/roth-ira-conversion-ladder-how-does-it-work"
+---
+
 # Roth Conversion Ladder（Roth 转换阶梯）
 
 **收集日期：** 2026-04-16

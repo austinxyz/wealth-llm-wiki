@@ -1,3 +1,17 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.kiplinger.com/investing/how-a-donor-advised-fund-can-slash-your-tax-bill-with-charitable-bunching"
+  - "https://www.dafgiving360.org/tax-law-changes"
+  - "https://www.dafgiving360.org/bunching-charitable-contributions"
+  - "https://www.hartfordfunds.com/practice-management/client-conversations/financial-planning/five-obbba-tax-law-changes-most-likely-to-impact-charitable-giving.html"
+  - "https://lslcpas.com/year-end-tax-planning-for-generous-donors-bunching-vs-donor-advised-funds-before-2026-tax-changes/"
+  - "https://unclekam.com/tax-write-offs/deductions/donor-advised-fund/"
+  - "https://blog.carnegieinvest.com/charitable-giving-tax-changes-coming-in-2026-what-you-should-know"
+---
+
 # DAF（Donor-Advised Fund，慈善捐赠基金）
 
 **收集日期：** 2026-04-16

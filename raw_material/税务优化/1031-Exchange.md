@@ -1,3 +1,17 @@
+---
+freshness: volatile
+valid_until: 2026-10-16
+collected: 2026-04-16
+source_url:
+  - "https://www.irs.gov/pub/irs-news/fs-08-18.pdf"
+  - "https://www.ipx1031.com/"
+  - "https://www.ipx1031.com/the-role-of-the-qualified-intermediary/"
+  - "https://www.1031x.com/1031-investor-center/the-qualified-intermediary/"
+  - "https://www.realized1031.com/qualified-intermediary"
+  - "https://atlas1031.com/basics/what-is-a-qualified-intermediary/"
+  - "https://www.ftb.ca.gov/pay/withholding/qualified-intermediary.html"
+---
+
 # 1031 Exchange（1031 同类置换）
 
 **收集日期：** 2026-04-16

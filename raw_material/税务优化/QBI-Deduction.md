@@ -1,3 +1,17 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.irs.gov/newsroom/qualified-business-income-deduction"
+  - "https://turbotax.intuit.com/tax-tips/small-business-taxes/qualified-business-income-deduction-explained/c8ImKhMX6"
+  - "https://www.sdocpa.com/qualified-business-income-deduction-guide/"
+  - "https://quickbooks.intuit.com/r/taxes/199a-deduction/"
+  - "https://unclekam.com/tax-write-offs/deductions/qbi-deduction-section-199a/"
+  - "https://mytaxcoursesonline.com/blog/post/the-qbi-deduction-2026-explained"
+  - "https://ourtaxpartner.com/qbi-deduction-2026-guide/"
+---
+
 # QBI Deduction（合格业务收入扣除 / Section 199A）
 
 **收集日期：** 2026-04-16

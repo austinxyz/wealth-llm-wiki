@@ -1,3 +1,16 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.fidelity.com/viewpoints/investing-ideas/asset-location-lower-taxes"
+  - "https://www.bogleheads.org/wiki/Tax-efficient_fund_placement"
+  - "https://www.whitecoatinvestor.com/asset-location/"
+  - "https://www.whitecoatinvestor.com/asset-location-bonds-go-in-taxable/"
+  - "https://investor.vanguard.com/investor-resources-education/article/asset-location-can-lead-to-lower-taxes"
+  - "https://www.morningstar.com/personal-finance/which-investments-keep-out-your-taxable-account"
+---
+
 # Asset Location（资产定位）
 
 **收集日期：** 2026-04-16
