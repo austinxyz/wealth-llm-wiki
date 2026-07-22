@@ -1,3 +1,18 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.irs.gov/businesses/small-businesses-self-employed/report-of-foreign-bank-and-financial-accounts-fbar"
+  - "https://www.fincen.gov/report-foreign-bank-and-financial-accounts"
+  - "https://bsaefiling.fincen.gov/file/fbar"
+  - "https://www.irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements"
+  - "https://www.sdocpa.com/fbar-filing-guide/"
+  - "https://www.greenbacktaxservices.com/knowledge-center/fbar/"
+  - "https://www.taxesforexpats.com/articles/fbar-fatca/a-detailed-look-at-the-foreign-bank-account-report-fbar-form.html"
+  - "https://www.visaverge.com/immigration/green-card-holders-face-10000-fbar-penalty-for-missing-foreign-bank-reports/"
+---
+
 # FBAR（FinCEN Form 114，境外账户报告）
 
 **收集日期：** 2026-04-16

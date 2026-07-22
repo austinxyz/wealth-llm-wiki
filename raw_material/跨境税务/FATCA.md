@@ -1,3 +1,18 @@
+---
+freshness: volatile
+valid_until: 2026-10-16
+collected: 2026-04-16
+source_url:
+  - "https://www.irs.gov/businesses/corporations/foreign-account-tax-compliance-act-fatca"
+  - "https://www.irs.gov/businesses/corporations/summary-of-fatca-reporting-for-us-taxpayers"
+  - "https://www.irs.gov/businesses/corporations/fatca-information-for-individuals"
+  - "https://home.treasury.gov/policy-issues/tax-policy/foreign-account-tax-compliance-act"
+  - "https://www.irs.gov/businesses/corporations/summary-of-key-fatca-provisions"
+  - "https://www.greenbacktaxservices.com/knowledge-center/fatca/"
+  - "https://brighttax.com/blog/fatca-and-crs-reporting/"
+  - "https://en.wikipedia.org/wiki/Foreign_Account_Tax_Compliance_Act"
+---
+
 # FATCA（境外账户税务合规法案）
 
 **收集日期：** 2026-04-16

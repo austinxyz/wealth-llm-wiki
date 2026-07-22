@@ -1,3 +1,18 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.irs.gov/pub/irs-pdf/f1116.pdf"
+  - "https://www.irs.gov/instructions/i1116"
+  - "https://www.irs.gov/individuals/international-taxpayers/foreign-tax-credit"
+  - "https://www.irs.gov/pub/irs-pdf/i1116.pdf"
+  - "https://www.greenbacktaxservices.com/knowledge-center/form-1116/"
+  - "https://universaltaxprofessionals.com/foreign-tax-credit/"
+  - "https://turbotax.intuit.com/tax-tips/military/filing-irs-form-1116-to-claim-the-foreign-tax-credit/L2ODfqp89"
+  - "https://www.taxsamaritan.com/tax-article-blog/foreign-tax-credit-us-expats/"
+---
+
 # Foreign Tax Credit（境外税收抵免，Form 1116）
 
 **收集日期：** 2026-04-16

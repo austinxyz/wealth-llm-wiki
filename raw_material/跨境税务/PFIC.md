@@ -1,3 +1,20 @@
+---
+freshness: evergreen
+valid_until: ""
+collected: 2026-04-16
+source_url:
+  - "https://www.irs.gov/forms-pubs/about-form-8621"
+  - "https://www.irs.gov/instructions/i8621"
+  - "https://www.taxesforexpats.com/articles/investments/pfic-taxes.html"
+  - "https://www.hcvt.com/alertarticle-PFIC-Reporting-for-Direct-and-Indirect-Investors"
+  - "https://www.greenbacktaxservices.com/knowledge-center/pfic/"
+  - "https://vipwealthadvisors.com/insights/pfic-form-8621-foreign-investment-tax-rules"
+  - "https://www.invesco.com/ca/en/insights/all-about-PFIC-rules.html"
+  - "https://www.manulifeim.com/retail/ca/en/regulatory/passive-foreign-investment-company-pfic"
+  - "https://www.blackrock.com/ca/investors/en/resources/faqs/pfic-statements"
+  - "https://en.wikipedia.org/wiki/Passive_foreign_investment_company"
+---
+
 # PFIC（Passive Foreign Investment Company，境外被动投资公司）⚠️
 
 **收集日期：** 2026-04-16
