@@ -3,6 +3,7 @@ output/
 !.claude/skills/
 .claude/skills/*
 !.claude/skills/wealth-advise/
+!.claude/skills/wealth-audit/
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 
