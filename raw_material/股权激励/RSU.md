@@ -2,8 +2,9 @@
 title: "RSU（Restricted Stock Units，限制性股票单位）"
 freshness: annual
 valid_until: 2026-12-31
-collected: 2026-04-16
+collected: 2026-07-22
 source_url:
+  - "https://www.ssa.gov/faqs/en/questions/KA-02387.html"
   - "https://turbotax.intuit.com/tax-tips/investments-and-taxes/how-to-report-rsus-or-stock-grants-on-your-tax-return/L55yZieu0"
   - "https://www.schwab.com/learn/story/rsu-taxes-and-psu-taxes"
   - "https://unclekam.com/tax-write-offs/deductions/restricted-stock-units-tax/"
@@ -84,7 +85,7 @@ Vest 股数 × Vest 当日 FMV = 普通所得
 
 ### 社保 / Medicare 税（FICA）
 
-- Social Security：6.2%（2026 上限 $176,100）
+- Social Security：6.2%（2026 上限 $184,500）
 - Medicare：1.45%（+ 0.9% Additional Medicare for 高收入）
 - 雇主也交对应 matched FICA
 
