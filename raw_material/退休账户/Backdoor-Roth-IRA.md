@@ -1,3 +1,16 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://investor.vanguard.com/investor-resources-education/article/how-to-set-up-backdoor-ira"
+  - "https://www.schwab.com/learn/story/backdoor-roth-is-it-right-you"
+  - "https://www.sdocpa.com/pro-rata-rule/"
+  - "https://www.altruistwealthmanagement.com/backdoor-roth-ira-cheat-sheet-2026"
+  - "https://unclekam.com/tax-strategy-blog/2026-backdoor-roth-explained-the-complete-high-earner-guide/"
+  - "https://rgwealth.com/insights/how-to-avoid-the-pro-rata-rule-with-backdoor-and-mega-roth-conversions/"
+---
+
 # Backdoor Roth IRA
 
 **收集日期：** 2026-04-16

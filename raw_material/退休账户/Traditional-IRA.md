@@ -1,3 +1,15 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500"
+  - "https://www.irs.gov/publications/p590a"
+  - "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-ira-contribution-limits"
+  - "https://www.fidelity.com/learning-center/smart-money/ira-contribution-limits"
+  - "https://www.stratatrust.com/insights/ira-contribution-rules-explained-for-2026/"
+---
+
 # Traditional IRA
 
 **收集日期：** 2026-04-16

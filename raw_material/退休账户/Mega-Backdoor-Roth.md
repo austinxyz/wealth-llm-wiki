@@ -1,3 +1,17 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.fidelity.com/learning-center/personal-finance/mega-backdoor-roth"
+  - "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500"
+  - "https://www.sdocpa.com/roth-vs-mega-backdoor-roth/"
+  - "https://www.commonsllc.com/insights/mega-backdoor-roth-limits-2026"
+  - "https://carry.com/learn/mega-backdoor-roth-explained"
+  - "https://www.nerdwallet.com/retirement/learn/mega-backdoor-roths-work"
+  - "https://www.eidebailly.com/insights/alerts/2026/maximize-roth-401k"
+---
+
 # Mega Backdoor Roth
 
 **收集日期：** 2026-04-16

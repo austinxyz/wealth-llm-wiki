@@ -1,3 +1,16 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.irs.gov/pub/irs-drop/n-26-05.pdf"
+  - "https://www.irs.gov/pub/irs-drop/rp-25-19.pdf"
+  - "https://www.fidelity.com/learning-center/smart-money/hsa-contribution-limits"
+  - "https://www.keenan.com/knowledge-center/news-and-insights/blogs/irs-announces-2026-hsa-and-hdhp-limits/"
+  - "https://www.goodrx.com/insurance/fsa-hsa/2026-hsa-contribution-limits"
+  - "https://www.healthcare.gov/hsa-options/"
+---
+
 # HSA：Health Savings Account（健康储蓄账户）
 
 **收集日期：** 2026-04-16

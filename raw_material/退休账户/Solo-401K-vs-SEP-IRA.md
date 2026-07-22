@@ -1,3 +1,16 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.irs.gov/retirement-plans/one-participant-401k-plans"
+  - "https://www.irs.gov/retirement-plans/retirement-plans-for-self-employed-people"
+  - "https://www.fidelity.com/learning-center/smart-money/solo-401k-contribution-limits"
+  - "https://www.guideline.com/education/articles/the-ultimate-guide-to-solo-401ks"
+  - "https://udirectira.com/solo-401k-vs-sep-ira-2026/"
+  - "https://www.irafinancial.com/blog/a-high-earners-guide-to-the-solo-401k/"
+---
+
 # Solo 401K vs SEP IRA（自由职业退休账户）
 
 **收集日期：** 2026-04-16

@@ -1,3 +1,17 @@
+---
+freshness: volatile
+valid_until: 2026-10-16
+collected: 2026-04-16
+source_url:
+  - "https://www.irs.gov/retirement-plans/plan-participant-employee/rollovers-of-retirement-plan-and-ira-distributions"
+  - "https://www.irs.gov/taxtopics/tc413"
+  - "https://www.irs.gov/retirement-plans/retirement-plans-faqs-regarding-iras"
+  - "https://www.irs.gov/retirement-plans/retirement-plans-faqs-relating-to-waivers-of-the-60-day-rollover-requirement"
+  - "https://www.fidelity.com/retirement-ira/401k-rollover-ira"
+  - "https://www.empower.com/the-currency/money/rollover-ira-taxes-60-day-rule"
+  - "https://drsfp.com/understanding-trustee-to-trustee-transfers-direct-rollovers-and-indirect-rollovers"
+---
+
 # 401K Rollover（401K 转出规则）
 
 **收集日期：** 2026-04-16
