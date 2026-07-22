@@ -1,3 +1,18 @@
+---
+freshness: evergreen
+valid_until: ""
+collected: 2026-04-16
+source_url:
+  - "https://www.spglobal.com/spdji/en/research-insights/spiva/"
+  - "https://www.betashares.com.au/insights/spiva-report-active-vs-passive/"
+  - "https://www.evidenceinvestor.com/spiva"
+  - "https://www.ifa.com/articles/spiva-report-active-vs-passive"
+  - "https://sustainableinvest.com/chart-of-the-week-september-8-2025-spiva-2025-actives-brief-shine-passives-lasting-edge/"
+  - "https://www.paulmerriman.com/the-spiva-report-proof-you-can-buy"
+  - "https://www.advisorperspectives.com/commentaries/2025/12/12/spiva-report-highlights-active-underperformance-versus-index-blends"
+  - "https://www.evidenceinvestor.com/post/spiva-persistence-scorecard"
+---
+
 # 主动 vs 被动投资（SPIVA 数据）
 
 **收集日期：** 2026-04-16

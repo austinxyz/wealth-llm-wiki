@@ -1,3 +1,18 @@
+---
+freshness: evergreen
+valid_until: ""
+collected: 2026-04-16
+source_url:
+  - "https://investor.vanguard.com/investor-resources-education/news/lump-sum-investing-versus-cost-averaging-which-is-better"
+  - "https://corporate.vanguard.com/content/dam/corp/research/pdf/cost_averaging_invest_now_or_temporarily_hold_your_cash.pdf"
+  - "https://investor.vanguard.com/investor-resources-education/online-trading/dollar-cost-averaging-vs-lump-sum"
+  - "https://www.elevationfinancial.com/dollar-cost-averaging-vs-lump-sum-investing-which-strategy-wins"
+  - "https://carverfinancialservices.com/dollar-cost-averaging-vs-lump-sum-investing-which-builds-wealth-faster/"
+  - "https://fortresswealthplanning.com/is-dollar-cost-averaging-better-than-lump-sum-investing/"
+  - "https://blog.acadviser.com/lump-sum-investing-vs-dollar-cost-averaging"
+  - "https://www.johnsoninv.com/insights/blog/investment/lump-sum-vs-dollar-cost-averaging"
+---
+
 # Dollar-Cost Averaging（DCA，定投）vs Lump Sum
 
 **收集日期：** 2026-04-16

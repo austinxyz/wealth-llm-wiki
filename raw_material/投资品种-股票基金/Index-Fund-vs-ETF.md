@@ -1,3 +1,18 @@
+---
+freshness: evergreen
+valid_until: ""
+collected: 2026-04-16
+source_url:
+  - "https://investor.vanguard.com/investor-resources-education/etfs/etf-vs-mutual-fund"
+  - "https://www.fidelity.com/learning-center/investment-products/etf/etfs-tax-efficiency"
+  - "https://www.schwab.com/etfs/mutual-funds-vs-etfs"
+  - "https://www.morningstar.com/funds/why-etfs-win-tax-battle-over-mutual-funds"
+  - "https://turbotax.intuit.com/tax-tips/investments-and-taxes/tax-efficiency-etf-vs-mutual-fund/L1sYF0Ec3"
+  - "https://www.alphaexcapital.com/etfs/etf-investing-basics/etf-vs-mutual-fund/tax-efficiency-etf-vs-mutual-fund"
+  - "https://www.heygotrade.com/en/blog/etf-vs-index-fund-which-is-better-for-long-term-investing"
+  - "https://www.mintos.com/blog/etf-vs-index-funds/"
+---
+
 # Index Fund vs ETF vs Mutual Fund
 
 **收集日期：** 2026-04-16

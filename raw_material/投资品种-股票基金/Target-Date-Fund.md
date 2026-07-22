@@ -1,3 +1,19 @@
+---
+freshness: evergreen
+valid_until: ""
+collected: 2026-04-16
+source_url:
+  - "https://workplace.vanguard.com/investment/strategies/tdf-glide-path.html"
+  - "https://investor.vanguard.com/investment-products/mutual-funds/target-retirement-funds"
+  - "https://www.nerdwallet.com/investing/learn/what-is-a-target-date-fund-and-when-should-you-invest-in-one"
+  - "https://herpersonalfinance.com/schwab-target-date-funds-versus-fidelity-and-vanguard/"
+  - "https://youngandtheinvested.com/target-date-retirement-funds-best-vanguard-fidelity-schwab/"
+  - "https://wealthup.com/target-date-retirement-funds-best-vanguard-fidelity-schwab/"
+  - "https://clark.com/personal-finance-credit/investing-retirement/target-date-funds/"
+  - "https://403bwise.org/blog/entry/guest-blog-target-date-funds"
+  - "https://www.mutualfunds.com/retirement-channel/know-composition-of-target-date-fund-over-time/"
+---
+
 # Target-Date Fund（目标日期基金）
 
 **收集日期：** 2026-04-16
