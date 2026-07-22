@@ -23,6 +23,9 @@ cp -r "$ROOT/wiki" "$STAGING/wiki"
 # 2. output 模板
 cp -r "$HERE/templates/output-template" "$STAGING/output"
 
+# 2.5 清理本地工具残留（Syncthing/macOS 等）
+find "$STAGING" \( -name '.stfolder*' -o -name '.DS_Store' -o -name 'Thumbs.db' \) -exec rm -rf {} + 2>/dev/null || true
+
 # 3. 安全断言
 DENY='YANZHAO|austin\.xyz@gmail|Lorraine Roth|Austin Roth|我的现金和投资|投资持仓快照|我的退休基金|EBAY持仓分析'
 if grep -rEl "$DENY" "$STAGING" >/dev/null 2>&1; then
