@@ -1,3 +1,19 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.irs.gov/taxtopics/tc851"
+  - "https://www.irs.gov/individuals/international-taxpayers/tax-information-and-responsibilities-for-new-immigrants-to-the-united-states"
+  - "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-about-international-individual-tax-matters"
+  - "https://www.irs.gov/individuals/international-taxpayers/us-citizens-and-resident-aliens-abroad"
+  - "https://brighttax.com/blog/us-tax-on-worldwide-income-for-green-card-holders/"
+  - "https://www.greenbacktaxservices.com/blog/filing-taxes-abroad-green-card-holders/"
+  - "https://www.taxesforexpats.com/articles/expat-tax-rules/green-card-foreign-income-tax.html"
+  - "https://1040abroad.com/blog/green-card-us-taxes-filing-requirements-for-holders/"
+  - "https://assets.kpmg.com/content/dam/kpmg/pdf/2015/08/us-taxation-of-foreign-citizens-2015.pdf"
+---
+
 # 绿卡 vs 公民 vs 非居民税务差异
 
 **收集日期：** 2026-04-16

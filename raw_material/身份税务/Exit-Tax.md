@@ -1,3 +1,19 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.irs.gov/individuals/international-taxpayers/expatriation-tax"
+  - "https://www.irs.gov/instructions/i8854"
+  - "https://www.irs.gov/forms-pubs/about-form-8854"
+  - "https://www.greenbacktaxservices.com/knowledge-center/form-8854/"
+  - "https://www.taxesforexpats.com/articles/expatriation/us-exit-tax.html"
+  - "https://vernitaxlaw.com/form-8854-explained-exit-tax-guide-2026/"
+  - "https://www.taxesforexpats.com/articles/expatriation/green-card-exit-tax-8-years.html"
+  - "https://1040abroad.com/blog/form-8854-the-final-step-in-leaving-u-s-tax-system/"
+  - "https://www.expatustax.com/form-8854/"
+---
+
 # Exit Tax（离境税 / 放弃身份税）
 
 **收集日期：** 2026-04-16
