@@ -25,7 +25,7 @@ wealth/
 ├── publish/           虚构家庭案例文章（演示知识如何落地决策）
 ├── templates/         空白财务档案模板（填写后用于 AI 分析）
 ├── output/            个人数据与建议（.gitignore，不入库）
-└── .claude/skills/    wealth-advise AI 分析 skill
+└── .claude/skills/    5 个 wealth AI skill（advise/extract/sync/audit/freshness）
 ```
 
 | 目录 | 是否入库 | 内容性质 |
