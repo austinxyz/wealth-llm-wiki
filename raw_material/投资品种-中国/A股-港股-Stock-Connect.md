@@ -1,3 +1,19 @@
+---
+freshness: volatile
+valid_until: "2026-10-16"
+collected: 2026-04-16
+source_url:
+  - "https://english.sse.com.cn/"
+  - "https://www.szse.cn/English/"
+  - "https://ts2.tech/en/shanghai-stock-exchange-outlook-chinas-2026-fiscal-signal-yuan-strength-and-star-market-ipo-changes-set-the-tone-for-the-next-session/"
+  - "https://tmastreet.com/china-stocks-2026-a-beginners-guide/"
+  - "https://www.equiti.com/sc-en/news/market-insights/china-securities-market-structure-and-features/"
+  - "https://tech-champion.com/stock-markets/chinese-stock-market-understanding-main-a-main-b-and-the-star-market/"
+  - "https://www.ubs.com/us/en/assetmanagement/insights/thematic-viewpoints/apac-and-emerging/articles/stock-connect-china-a-shares-faqs-equity-investing.html"
+  - "https://www.msci.com/indexes/index/732716"
+  - "https://www.stashaway.my/r/malaysian-investor-guide-to-buying-china-stocks"
+---
+
 # A 股市场 + 港股通 + Stock Connect
 
 **收集日期：** 2026-04-16
