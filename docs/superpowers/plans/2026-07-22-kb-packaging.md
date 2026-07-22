@@ -233,7 +233,7 @@ cd "C:\Users\lorra\projects\blogs" && git add static/wealth-guide.html && git co
 
 - [ ] **Step 2: wealth-advise SKILL.md 通用化**
 
-该文件 line 24-30 的主题映射表引用了个人文件名（我的退休基金.md、投资持仓快照.md 等）。将第三列改为通用描述，例如：
+该文件 line 24-30 的主题映射表引用了个人文件名（个人退休基金记录.md、个人持仓快照.md 等）。将第三列改为通用描述，例如：
 
 ```markdown
 | 主题 | 读取 wiki | 读取 output/（你的个人文件） |
@@ -251,7 +251,7 @@ cd "C:\Users\lorra\projects\blogs" && git add static/wealth-guide.html && git co
 
 - [ ] **Step 3: 验证**
 
-Run: `grep -rE "我的退休基金|投资持仓快照|我的现金和投资|EBAY" .claude/skills/ || echo CLEAN`
+Run: `grep -rE "个人退休基金记录|个人持仓快照|个人现金与投资记录|EBAY" .claude/skills/ || echo CLEAN`
 Expected: `CLEAN`
 
 - [ ] **Step 4: Commit + push（wealth 仓库——学员通过 GitHub 消费，需 push）**
