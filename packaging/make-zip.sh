@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-# 构建教程 zip：wiki/ + output/ 模板 → dist/wealth-llm-wiki.zip
+# 构建教程 zip：wiki/ + templates/（仓库既有的 4 个空白档案模板）→ dist/wealth-llm-wiki.zip
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ROOT="$(cd "$HERE/.." && pwd)"
 STAGING="$ROOT/dist/staging/wealth-llm-wiki"
@@ -20,8 +20,8 @@ mkdir -p "$STAGING"
 
 # 1. wiki 全量
 cp -r "$ROOT/wiki" "$STAGING/wiki"
-# 2. output 模板
-cp -r "$HERE/templates/output-template" "$STAGING/output"
+# 2. templates（仓库既有的 4 个空白财务档案模板，教程 Prompt 依赖这个路径）
+cp -r "$ROOT/templates" "$STAGING/templates"
 
 # 2.5 清理本地工具残留（Syncthing/macOS 等）
 find "$STAGING" \( -name '.stfolder*' -o -name '.DS_Store' -o -name 'Thumbs.db' \) -exec rm -rf {} + 2>/dev/null || true
@@ -55,7 +55,8 @@ z = zipfile.ZipFile(r'$ZIP_NATIVE')
 names = z.namelist()
 print(f'{len(names)} entries')
 assert any(n.startswith('wealth-llm-wiki/wiki/') for n in names)
-assert any(n.startswith('wealth-llm-wiki/output/') for n in names)
+assert any(n.startswith('wealth-llm-wiki/templates/') for n in names)
 assert not any('raw_material' in n for n in names)
+assert not any(n.startswith('wealth-llm-wiki/output/') for n in names)
 print('structure check pass')
 "
