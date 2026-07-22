@@ -4,6 +4,7 @@ freshness: annual
 valid_until: 2026-12-31
 collected: 2026-04-16
 source_url:
+  - "https://www.irs.gov/instructions/i1041"
   - "https://www.metlife.com/stories/legal/revocable-vs-irrevocable-trust/"
   - "https://smartasset.com/financial-advisor/revocable-vs-irrevocable-trust"
   - "https://smartasset.com/estate-planning/pros-and-cons-of-revocable-living-trust"

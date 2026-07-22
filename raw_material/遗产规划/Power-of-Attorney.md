@@ -4,6 +4,7 @@ freshness: volatile
 valid_until: 2026-10-16
 collected: 2026-04-16
 source_url:
+  - "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4121."
   - "https://www.stimmel-law.com/en/articles/durable-power-attorney-health-care-california-law-and-form"
   - "https://opelon.com/health-care-power-of-attorney/"
   - "https://opelon.com/california-durable-power-of-attorney/"
