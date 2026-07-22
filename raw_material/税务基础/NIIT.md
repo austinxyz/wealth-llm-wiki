@@ -1,3 +1,14 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.irs.gov/taxtopics/tc559"
+  - "https://www.irs.gov/instructions/i8960"
+  - "https://www.irs.gov/pub/irs-pdf/f8960.pdf"
+  - "https://turbotax.intuit.com/tax-tips/investments-and-taxes/what-is-form-8960-net-investment-income-tax/L15hpJmi9"
+---
+
 # NIIT：净投资收入附加税（Net Investment Income Tax）
 
 **收集日期：** 2026-04-16

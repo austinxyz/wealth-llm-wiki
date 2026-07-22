@@ -1,3 +1,15 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.irs.gov/taxtopics/tc556"
+  - "https://smartasset.com/taxes/amt-tax-brackets"
+  - "https://www.wealthspire.com/blog/the-return-of-alternative-minimum-tax-amt-what-high-earners-need-to-understand-about-2026/"
+  - "https://carta.com/learn/equity/stock-options/taxes/amt/"
+  - "https://taxpolicycenter.org/briefing-book/what-amt"
+---
+
 # AMT：替代性最低税（Alternative Minimum Tax）
 
 **收集日期：** 2026-04-16

@@ -1,3 +1,14 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.irs.gov/taxtopics/tc404"
+  - "https://www.fidelity.com/learning-center/trading-investing/qualified-dividends"
+  - "https://www.kiplinger.com/investing/stocks/dividend-stocks/601396/qualified-dividends-vs-ordinary-dividends"
+  - "https://www.fool.com/investing/stock-market/types-of-stocks/dividend-stocks/how-dividends-taxed/"
+---
+
 # 合格分红 vs 普通分红（Qualified vs Ordinary Dividends）
 
 **收集日期：** 2026-04-16
