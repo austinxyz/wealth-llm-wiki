@@ -4,7 +4,10 @@ output/
 .claude/skills/*
 !.claude/skills/wealth-advise/
 !.claude/skills/wealth-audit/
+!.claude/skills/wealth-extract/
 !.claude/skills/wealth-freshness/
+!.claude/skills/wealth-sync/
+packaging/deny-list.local
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 

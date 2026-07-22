@@ -26,8 +26,10 @@ cp -r "$HERE/templates/output-template" "$STAGING/output"
 # 2.5 清理本地工具残留（Syncthing/macOS 等）
 find "$STAGING" \( -name '.stfolder*' -o -name '.DS_Store' -o -name 'Thumbs.db' \) -exec rm -rf {} + 2>/dev/null || true
 
-# 3. 安全断言
-DENY='YANZHAO|austin\.xyz@gmail|Lorraine Roth|Austin Roth|我的现金和投资|投资持仓快照|我的退休基金|EBAY持仓分析'
+# 3. 安全断言（个人特征正则维护在未入库的 deny-list.local，避免特征本身泄漏到 public repo）
+DENY_FILE="$HERE/deny-list.local"
+[ -f "$DENY_FILE" ] || { echo "ABORT: 缺少 $DENY_FILE（个人特征 deny-list，本地维护不入库）"; exit 1; }
+DENY="$(head -1 "$DENY_FILE")"
 if grep -rEl "$DENY" "$STAGING" >/dev/null 2>&1; then
   echo "ABORT: 个人特征命中："; grep -rEl "$DENY" "$STAGING"; exit 1
 fi

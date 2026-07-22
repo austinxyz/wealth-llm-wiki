@@ -11,7 +11,7 @@
 ## Global Constraints
 
 - 教程 zip 结构 = `wiki/ + output/`（无 raw_material，无 CLAUDE.md）——spec 结构 C
-- 安全 deny-list（zip 产物 0 命中，命中即 abort）：`YANZHAO`、`austin.xyz@gmail`、`Lorraine Roth`、`Austin Roth`、`我的现金和投资`、`投资持仓快照`、`我的退休基金`、`净资产追踪`（作为文件名）、`资产全景`（作为文件名）、`EBAY持仓分析`
+- 安全 deny-list（zip 产物 0 命中，命中即 abort）：个人特征正则（真名/邮箱/个人文件名等，维护在未入库的 packaging/deny-list.local）
 - zip 产物不含 `.git/`、`.obsidian/`、`.superpowers/`、`raw_material/`
 - `dist/` 加入 wealth 仓库 .gitignore（产物不入库）
 - community 学员核心 skill 为 5 个：wealth-advise / wealth-audit / wealth-extract / wealth-freshness / wealth-sync（git-commit-push、wealth-log 保留在 repo 但手册不提）
@@ -99,7 +99,7 @@ cp -r "$ROOT/wiki" "$STAGING/wiki"
 cp -r "$HERE/templates/output-template" "$STAGING/output"
 
 # 3. 安全断言
-DENY='YANZHAO|austin\.xyz@gmail|Lorraine Roth|Austin Roth|我的现金和投资|投资持仓快照|我的退休基金|EBAY持仓分析'
+DENY="$(head -1 "$HERE/deny-list.local")"  # 个人特征正则，本地维护不入库
 if grep -rEl "$DENY" "$STAGING" >/dev/null 2>&1; then
   echo "ABORT: 个人特征命中："; grep -rEl "$DENY" "$STAGING"; exit 1
 fi
@@ -388,7 +388,7 @@ cd "$TMPDIR" 2>/dev/null || cd /tmp
 rm -rf kb-smoke && git clone --depth 1 https://github.com/austinxyz/wealth-llm-wiki kb-smoke
 ls kb-smoke/.claude/skills          # 期望含 5+ 个 wealth skill
 ls kb-smoke/output 2>/dev/null      # 期望：不存在（gitignore 生效）
-grep -rE "YANZHAO|austin\.xyz@gmail" kb-smoke --include="*.md" | grep -v _audit || echo CLEAN
+grep -rEf <(head -1 ../personal/wealth/packaging/deny-list.local) kb-smoke --include="*.md" | grep -v _audit || echo CLEAN
 ```
 
 Expected: skills 在、无 output、CLEAN（_audit 报告若含邮箱等需人工看一眼——不应有）

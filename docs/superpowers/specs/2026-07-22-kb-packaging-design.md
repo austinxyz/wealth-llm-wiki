@@ -37,7 +37,7 @@ wealth 仓库新增：
 2. 拷 `wiki/` → staging（排除 `.obsidian` 相关）
 3. 拷 packaging/templates/output-template/ → staging/output/
 4. 安全断言（失败即 abort 非零退出）：
-   - grep 个人特征：`YANZHAO|austin.xyz@gmail|Lorraine Roth|Austin Roth` 及 output/ 真实文件名清单（我的情况/净资产追踪/资产全景等）→ 0 命中
+   - grep 个人特征：个人特征正则（真名/邮箱/个人文件名等，维护在未入库的 packaging/deny-list.local）→ 0 命中
    - 不存在 `.git/`、`.obsidian/`、`.superpowers/`、`raw_material/`
 5. zip → `dist/wealth-llm-wiki.zip`
 
