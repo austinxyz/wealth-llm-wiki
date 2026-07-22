@@ -1,3 +1,26 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.irs.gov/taxtopics/tc310"
+  - "https://www.savingforcollege.com/article/coverdell-esa-versus-529-plan"
+  - "https://www.irafinancial.com/blog/coverdell-esa-vs-529-plan/"
+  - "https://20somethingfinance.com/coverdell-education-savings-account/"
+  - "https://www.fool.com/retirement/college-savings/529-vs-coverdell/"
+  - "https://www.westernsouthern.com/investments/coverdell-esa-vs-529"
+  - "https://www.trustetc.com/blog/coverdell-esa-vs-529-plan-comparison/"
+  - "https://research.com/student-loans/coverdell-education-savings-account-vs-529-plan"
+  - "https://www.irs.gov/taxtopics/tc553"
+  - "https://www.fidelity.com/learning-center/personal-finance/kiddie-tax"
+  - "https://www.schwab.com/learn/story/saving-college-custodial-accounts"
+  - "https://www.savingforcollege.com/article/what-is-an-ugma-or-utma-account"
+  - "https://ourtaxpartner.com/custodial-account-taxes-2026-ugma-utma-rules/"
+  - "https://www.cnb.com/personal-banking/insights/utma-ugma-accounts.html"
+  - "https://westwoodgroup.com/weeklyfp/custodial-accounts-utma-ugma-for-education-savings-2/"
+  - "https://finaid.org/savings/ageofmajority/"
+---
+
 # Coverdell ESA + UTMA/UGMA 账户
 
 **收集日期：** 2026-04-16

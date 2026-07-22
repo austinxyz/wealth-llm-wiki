@@ -1,3 +1,20 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.irs.gov/publications/p590a"
+  - "https://www.savingforcollege.com/article/roll-over-529-plan-funds-to-a-roth-ira"
+  - "https://www.savingforcollege.com/article/529-plan-new-rules-changes"
+  - "https://www.fidelity.com/learning-center/personal-finance/529-rollover-to-roth"
+  - "https://www.empower.com/the-currency/money/big-changes-529s-2025-spending-bill-news"
+  - "https://www.kitces.com/blog/529-to-roth-ira-rollover-retirement-saving-education-planning-secure-2-0-backdoor-roth/"
+  - "https://q3adv.com/529-to-roth-ira-conversion-new-rules-2026/"
+  - "https://www.smart529.com/invest/roll-over-unused-529-funds-to-roth-ira-accounts.html"
+  - "https://529.wa.gov/blog/secure-20-and-your-529-account"
+  - "https://taxo.com/529-plan-tax-benefits-by-state/"
+---
+
 # 529 Plan（教育储蓄计划）
 
 **收集日期：** 2026-04-16
