@@ -1,4 +1,5 @@
 ---
+title: "Exit Tax（离境税 / 放弃身份税）"
 freshness: annual
 valid_until: 2026-12-31
 collected: 2026-04-16

@@ -1,7 +1,9 @@
 ---
+title: "Medicare Part A/B/C/D + Medigap"
 freshness: annual
 valid_until: 2026-12-31
 collected: 2026-04-16
+tax_year: 2026
 source_url:
   - "https://www.cms.gov/newsroom/fact-sheets/2026-medicare-parts-b-premiums-deductibles"
   - "https://www.medicare.gov/health-drug-plans/medigap/basics/compare-plan-benefits"

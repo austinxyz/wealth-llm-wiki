@@ -1,4 +1,5 @@
 ---
+title: "Will（遗嘱）基础"
 freshness: annual
 valid_until: 2026-12-31
 collected: 2026-04-16

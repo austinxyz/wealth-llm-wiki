@@ -1,4 +1,5 @@
 ---
+title: "Asset Location（资产定位）"
 freshness: annual
 valid_until: 2026-12-31
 collected: 2026-04-16

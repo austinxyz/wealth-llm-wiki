@@ -1,4 +1,5 @@
 ---
+title: "Dollar-Cost Averaging（DCA，定投）vs Lump Sum"
 freshness: evergreen
 valid_until: ""
 collected: 2026-04-16

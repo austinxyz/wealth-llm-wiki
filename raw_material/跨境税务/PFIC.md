@@ -1,4 +1,5 @@
 ---
+title: "PFIC（Passive Foreign Investment Company，境外被动投资公司）"
 freshness: evergreen
 valid_until: ""
 collected: 2026-04-16

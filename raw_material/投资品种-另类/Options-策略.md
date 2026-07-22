@@ -1,4 +1,5 @@
 ---
+title: "Options 策略（Covered Call / Cash-Secured Put / Wheel / Risk Reversal）"
 freshness: volatile
 valid_until: "2026-10-16"
 collected: 2026-04-16

@@ -1,7 +1,9 @@
 ---
+title: "NIIT：净投资收入附加税（Net Investment Income Tax）"
 freshness: annual
 valid_until: 2026-12-31
 collected: 2026-04-16
+tax_year: 2026
 source_url:
   - "https://www.irs.gov/taxtopics/tc559"
   - "https://www.irs.gov/instructions/i8960"

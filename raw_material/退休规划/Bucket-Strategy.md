@@ -1,4 +1,5 @@
 ---
+title: "Bucket Strategy（分桶法）"
 freshness: evergreen
 valid_until: ""
 collected: 2026-04-16

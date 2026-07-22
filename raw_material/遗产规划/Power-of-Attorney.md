@@ -1,4 +1,5 @@
 ---
+title: "Power of Attorney（委托书，财务 / 医疗）"
 freshness: volatile
 valid_until: 2026-10-16
 collected: 2026-04-16

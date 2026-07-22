@@ -1,7 +1,9 @@
 ---
+title: "DAF（Donor-Advised Fund，慈善捐赠基金）"
 freshness: annual
 valid_until: 2026-12-31
 collected: 2026-04-16
+tax_year: 2026
 source_url:
   - "https://www.kiplinger.com/investing/how-a-donor-advised-fund-can-slash-your-tax-bill-with-charitable-bunching"
   - "https://www.dafgiving360.org/tax-law-changes"

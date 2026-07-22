@@ -1,7 +1,9 @@
 ---
+title: "Social Security 领取策略（62/67/70）"
 freshness: annual
 valid_until: 2026-12-31
 collected: 2026-04-16
+tax_year: 2026
 source_url:
   - "https://www.ssa.gov/benefits/retirement/planner/delayret.html"
   - "https://www.ssa.gov/benefits/retirement/planner/agereduction.html"

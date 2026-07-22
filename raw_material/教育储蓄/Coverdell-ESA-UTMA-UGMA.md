@@ -1,7 +1,9 @@
 ---
+title: "Coverdell ESA + UTMA/UGMA 账户"
 freshness: annual
 valid_until: 2026-12-31
 collected: 2026-04-16
+tax_year: 2026
 source_url:
   - "https://www.irs.gov/taxtopics/tc310"
   - "https://www.savingforcollege.com/article/coverdell-esa-versus-529-plan"

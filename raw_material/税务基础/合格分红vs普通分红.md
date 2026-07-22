@@ -1,7 +1,9 @@
 ---
+title: "合格分红 vs 普通分红（Qualified vs Ordinary Dividends）"
 freshness: annual
 valid_until: 2026-12-31
 collected: 2026-04-16
+tax_year: 2026
 source_url:
   - "https://www.irs.gov/taxtopics/tc404"
   - "https://www.fidelity.com/learning-center/trading-investing/qualified-dividends"

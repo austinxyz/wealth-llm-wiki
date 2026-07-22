@@ -1,7 +1,9 @@
 ---
+title: "Backdoor Roth IRA"
 freshness: annual
 valid_until: 2026-12-31
 collected: 2026-04-16
+tax_year: 2026
 source_url:
   - "https://investor.vanguard.com/investor-resources-education/article/how-to-set-up-backdoor-ira"
   - "https://www.schwab.com/learn/story/backdoor-roth-is-it-right-you"

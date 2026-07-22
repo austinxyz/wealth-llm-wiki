@@ -1,4 +1,5 @@
 ---
+title: "WEP / GPO（已于 2025 年废除）"
 freshness: annual
 valid_until: 2026-12-31
 collected: 2026-04-16

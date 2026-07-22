@@ -1,4 +1,5 @@
 ---
+title: "Beneficiary Designation（受益人指定）"
 freshness: evergreen
 valid_until: ""
 collected: 2026-04-16

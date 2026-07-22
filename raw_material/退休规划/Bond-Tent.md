@@ -1,4 +1,5 @@
 ---
+title: "Bond Tent 与 Rising Equity Glidepath"
 freshness: evergreen
 valid_until: ""
 collected: 2026-04-16

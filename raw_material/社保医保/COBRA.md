@@ -1,4 +1,5 @@
 ---
+title: "COBRA（离职后健保延续）"
 freshness: annual
 valid_until: 2026-12-31
 collected: 2026-04-16

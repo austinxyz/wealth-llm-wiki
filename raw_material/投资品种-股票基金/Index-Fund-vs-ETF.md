@@ -1,4 +1,5 @@
 ---
+title: "Index Fund vs ETF vs Mutual Fund"
 freshness: evergreen
 valid_until: ""
 collected: 2026-04-16

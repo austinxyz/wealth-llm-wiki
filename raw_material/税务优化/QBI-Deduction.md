@@ -1,7 +1,9 @@
 ---
+title: "QBI Deduction（合格业务收入扣除 / Section 199A）"
 freshness: annual
 valid_until: 2026-12-31
 collected: 2026-04-16
+tax_year: 2026
 source_url:
   - "https://www.irs.gov/newsroom/qualified-business-income-deduction"
   - "https://turbotax.intuit.com/tax-tips/small-business-taxes/qualified-business-income-deduction-explained/c8ImKhMX6"

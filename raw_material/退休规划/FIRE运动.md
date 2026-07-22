@@ -1,4 +1,5 @@
 ---
+title: "FIRE 运动：Lean / Fat / Coast / Barista FIRE"
 freshness: evergreen
 valid_until: ""
 collected: 2026-04-16

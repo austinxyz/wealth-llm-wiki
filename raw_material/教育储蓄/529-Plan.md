@@ -1,7 +1,9 @@
 ---
+title: "529 Plan（教育储蓄计划）"
 freshness: annual
 valid_until: 2026-12-31
 collected: 2026-04-16
+tax_year: 2026
 source_url:
   - "https://www.irs.gov/publications/p590a"
   - "https://www.savingforcollege.com/article/roll-over-529-plan-funds-to-a-roth-ira"

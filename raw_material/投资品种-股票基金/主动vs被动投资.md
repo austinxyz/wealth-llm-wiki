@@ -1,4 +1,5 @@
 ---
+title: "主动 vs 被动投资（SPIVA 数据）"
 freshness: evergreen
 valid_until: ""
 collected: 2026-04-16

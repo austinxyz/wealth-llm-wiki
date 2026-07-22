@@ -1,7 +1,9 @@
 ---
+title: "AMT：替代性最低税（Alternative Minimum Tax）"
 freshness: annual
 valid_until: 2026-12-31
 collected: 2026-04-16
+tax_year: 2026
 source_url:
   - "https://www.irs.gov/taxtopics/tc556"
   - "https://smartasset.com/taxes/amt-tax-brackets"

@@ -1,7 +1,9 @@
 ---
+title: "HSA：Health Savings Account（健康储蓄账户）"
 freshness: annual
 valid_until: 2026-12-31
 collected: 2026-04-16
+tax_year: 2026
 source_url:
   - "https://www.irs.gov/pub/irs-drop/n-26-05.pdf"
   - "https://www.irs.gov/pub/irs-drop/rp-25-19.pdf"

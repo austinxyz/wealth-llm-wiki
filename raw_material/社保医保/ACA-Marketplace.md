@@ -1,7 +1,9 @@
 ---
+title: "ACA Marketplace（Medicare 前的健康保险）"
 freshness: annual
 valid_until: 2026-12-31
 collected: 2026-04-16
+tax_year: 2026
 source_url:
   - "https://www.congress.gov/crs-product/R48290"
   - "https://www.kff.org/affordable-care-act/aca-marketplace-premium-payments-would-more-than-double-on-average-next-year-if-enhanced-premium-tax-credits-expire/"
