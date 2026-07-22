@@ -1,3 +1,22 @@
+---
+freshness: volatile
+valid_until: "2026-10-16"
+collected: 2026-04-16
+source_url:
+  - "https://www.fidelity.com/viewpoints/investing-ideas/bond-ladder-strategy"
+  - "https://www.schwab.com/fixed-income/bond-ladders"
+  - "https://www.ssga.com/us/en/individual/resources/education/how-to-build-a-bond-ladder"
+  - "https://www.theretirementmanifesto.com/how-to-build-a-bond-ladder/"
+  - "https://www.bankrate.com/investing/bond-ladder-strategy/"
+  - "https://winthroppartners.com/bond-ladder-retirement-income-guide/"
+  - "https://www.bluewaterportfolios.com/retirement-income-playbook/individual-bond-cd-ladder"
+  - "https://www.fidelity.com/learning-center/investment-products/fixed-income-bonds/duration"
+  - "https://www.raymondjames.com/wealth-management/advice-products-and-services/investment-solutions/fixed-income/bond-basics/duration-and-convexity"
+  - "https://madisoninvestments.com/interest-rate-risk-understanding-duration-convexity/"
+  - "https://macrohive.com/hive-explainers/duration-and-convexity-in-bond-markets/"
+  - "https://www.fidelity.com/fixed-income-bonds/cd-ladders"
+---
+
 # Bond Ladder 策略 + Duration 与利率风险
 
 **收集日期：** 2026-04-16

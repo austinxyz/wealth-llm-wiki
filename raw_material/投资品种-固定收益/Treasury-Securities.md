@@ -1,3 +1,18 @@
+---
+freshness: annual
+valid_until: "2026-12-31"
+collected: 2026-04-16
+source_url:
+  - "https://treasurydirect.gov/marketable-securities/understanding-pricing/"
+  - "https://www.treasurydirect.gov/savings-bonds/i-bonds/"
+  - "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026"
+  - "https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics"
+  - "https://www.federalreserve.gov/releases/h15/"
+  - "https://fred.stlouisfed.org/series/DGS10"
+  - "https://www.schwab.com/learn/story/fixed-income-outlook"
+  - "https://etfdb.com/fixed-income-content-hub/april-2-2026-treasury-yields-snapshot/"
+---
+
 # 美国国债全家族（Treasury Securities）
 
 **收集日期：** 2026-04-16

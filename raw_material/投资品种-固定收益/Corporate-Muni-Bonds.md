@@ -1,3 +1,24 @@
+---
+freshness: volatile
+valid_until: "2026-10-16"
+collected: 2026-04-16
+source_url:
+  - "https://www.fidelity.com/learning-center/investment-products/fixed-income-bonds/bond-ratings"
+  - "https://www.schwab.com/learn/story/corporate-bond-outlook"
+  - "https://investmentgrade.com/investment-grade-bonds/"
+  - "https://www.sifma.org/research/statistics/us-corporate-bonds-statistics"
+  - "https://fred.stlouisfed.org/series/BAMLH0A0HYM2EY"
+  - "https://en.wikipedia.org/wiki/Bond_credit_rating"
+  - "https://en.wikipedia.org/wiki/High-yield_debt"
+  - "https://debtguide-api.treasurer.ca.gov/guide-pages/chapter-3-types-of-debt-obligations-issued-by-public-agencies/3-5-tax-treatment-of-municipal-bonds"
+  - "https://www.kiplinger.com/investing/etfs/best-tax-free-municipal-bond-etfs"
+  - "https://www.fool.com/investing/how-to-invest/bonds/tax-free-municipal-bonds/"
+  - "https://money.usnews.com/investing/articles/best-tax-free-municipal-bond-funds"
+  - "https://www.invesco.com/us/en/financial-products/etfs/invesco-california-amt-free-municipal-bond-etf.html"
+  - "https://www.schwabassetmanagement.com/products/swcax"
+  - "https://www.troweprice.com/financial-intermediary/us/en/investments/mutual-funds/us-products/california-tax-free-bond-fund.html"
+---
+
 # Corporate Bonds + Municipal Bonds
 
 **收集日期：** 2026-04-16
