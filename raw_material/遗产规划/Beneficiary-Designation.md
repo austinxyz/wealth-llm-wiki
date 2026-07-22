@@ -1,3 +1,20 @@
+---
+freshness: evergreen
+valid_until: ""
+collected: 2026-04-16
+source_url:
+  - "https://investor.vanguard.com/investor-resources-education/beneficiaries"
+  - "https://investor.vanguard.com/investor-resources-education/beneficiaries/adding-beneficiaries-to-ira"
+  - "https://www.esslawfirm.com/articles/the-importance-of-beneficiary-and-contingent-beneficiary-designations-for-iras-401ks-life-insurance-policies-and-annuities/"
+  - "https://www.richdadretirement.com/learn/per-stirpes-beneficiary-designation"
+  - "https://www.definefinancial.com/blog/per-stirpes-beneficiary-designations-defined/"
+  - "https://www.bridgeviewadvisors.com/ira-beneficiary-designations/"
+  - "https://moderawealth.com/ira-beneficiaries-per-stirpes-vs-per-capita/"
+  - "https://www.thefgfirm.law/blog/per-stirpes-vs-per-capita-beneficiary-designations/"
+  - "https://www.opm.gov/frequently-asked-questions/insure-faq/life/what-is-a-per-stirpes-designation-can-i-use-one-when-designating-beneficiaries-for-my-fegli-life-insurance/"
+  - "https://opelon.com/beneficiary-designations/"
+---
+
 # Beneficiary Designation（受益人指定）
 
 **收集日期：** 2026-04-16

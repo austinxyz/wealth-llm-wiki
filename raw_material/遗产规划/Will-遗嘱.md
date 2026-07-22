@@ -1,3 +1,19 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://selfhelp.courts.ca.gov/wills-estates-probate"
+  - "https://selfhelp.courts.ca.gov/wills-estates-probate/legal-documents"
+  - "https://www.freewill.com/learn/california-last-will-and-testament"
+  - "https://opelon.com/last-will-and-testament-in-california/"
+  - "https://www.legalzoom.com/articles/california-estate-planning-guide"
+  - "https://www.moravecslaw.com/post/new-rules-for-probate-in-california-you-need-to-know-for-2024"
+  - "https://www.clarkallison.com/blog/new-federal-and-california-estate-planning-laws-for-2026"
+  - "https://www.cunninghamlegal.com/california-legal-services/how-to-do-probate-in-california-on-your-own-or-with-legal-help/"
+  - "https://www.feldmanlawgroup.com/blog/2025/december/estate-planning-updates-for-2026-what-you-should/"
+---
+
 # Will（遗嘱）基础
 
 **收集日期：** 2026-04-16

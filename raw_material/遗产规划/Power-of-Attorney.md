@@ -1,3 +1,20 @@
+---
+freshness: volatile
+valid_until: 2026-10-16
+collected: 2026-04-16
+source_url:
+  - "https://www.stimmel-law.com/en/articles/durable-power-attorney-health-care-california-law-and-form"
+  - "https://opelon.com/health-care-power-of-attorney/"
+  - "https://opelon.com/california-durable-power-of-attorney/"
+  - "https://lawvex.com/durable-power-of-attorney-california/"
+  - "https://livingtrustcalifornia.com/blog/power-of-attorney-california-2026.html"
+  - "https://canhr.org/durable-power-of-attorney-for-health-care-advance-directives/"
+  - "https://www.meinzerlawoffice.com/blog/california-power-of-attorney-laws/"
+  - "https://www.moravecslaw.com/post/how-does-a-durable-power-of-attorney-in-healthcare-work-in-california"
+  - "https://www.anthemeap.com/sisc/find-legal-support/resources/estate-law/legal-assist/the-durable-power-of-attorney-health-care-and-finances"
+  - "https://californiamobility.com/medical-power-of-attorney-california/"
+---
+
 # Power of Attorney（委托书，财务 / 医疗）
 
 **收集日期：** 2026-04-16

@@ -1,3 +1,19 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.metlife.com/stories/legal/revocable-vs-irrevocable-trust/"
+  - "https://smartasset.com/financial-advisor/revocable-vs-irrevocable-trust"
+  - "https://smartasset.com/estate-planning/pros-and-cons-of-revocable-living-trust"
+  - "https://www.nerdwallet.com/estate-planning/learn/revocable-vs-irrevocable-trust"
+  - "https://www.jamesburnslaw.com/the-pros-and-cons-of-revocable-vs-irrevocable-trusts"
+  - "https://www.schwab.com/learn/story/revocable-living-trust-vs-will"
+  - "https://www.ltcfeds.gov/care-navigator/types-of-trusts-for-your-estate-which-is-best-for-you"
+  - "https://ridleylawoffices.com/how-a-revocable-living-trust-can-protect-your-assets-2/"
+  - "https://www.jcarrolllaw.com/blog/the-pros-and-cons-of-a-revocable-living-trust/"
+---
+
 # Trust（信托）类型
 
 **收集日期：** 2026-04-16
