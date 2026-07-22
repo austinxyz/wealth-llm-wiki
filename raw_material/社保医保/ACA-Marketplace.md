@@ -1,3 +1,19 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.congress.gov/crs-product/R48290"
+  - "https://www.kff.org/affordable-care-act/aca-marketplace-premium-payments-would-more-than-double-on-average-next-year-if-enhanced-premium-tax-credits-expire/"
+  - "https://www.kff.org/interactive/calculator-aca-enhanced-premium-tax-credit/"
+  - "https://www.anthem.com/individual-and-family/insurance-basics/health-insurance/aca-changes-2026"
+  - "https://www.wellpoint.com/individual-family/learn/aca-changes-2026"
+  - "https://www.healthinsurance.org/obamacare/subsidy-calculator/"
+  - "https://www.fidelity.com/learning-center/personal-finance/reduce-health-care-costs-aca-subsidies"
+  - "https://bipartisanpolicy.org/issue-brief/enhanced-premium-tax-credits-who-benefits-how-much-and-what-happens-next/"
+  - "https://www.ama-assn.org/health-care-advocacy/federal-advocacy/4-big-beautiful-bill-changes-will-reshape-care-2026"
+---
+
 # ACA Marketplace（Medicare 前的健康保险）
 
 **收集日期：** 2026-04-16

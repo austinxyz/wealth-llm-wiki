@@ -1,3 +1,17 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/cobra"
+  - "https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/faqs/cobra-continuation-health-coverage-consumer.pdf"
+  - "https://www.cms.gov/cciio/programs-and-initiatives/other-insurance-protections/cobra_fact_sheet"
+  - "https://www.usa.gov/cobra-health-insurance"
+  - "https://www.healthcare.gov/have-job-based-coverage/if-you-lose-job-based-coverage/"
+  - "https://www.cobrainsurance.com/kb/how-much-does-cobra-insurance-cost/"
+  - "https://life143.com/cobra-coverage-2026/"
+---
+
 # COBRA（离职后健保延续）
 
 **收集日期：** 2026-04-16

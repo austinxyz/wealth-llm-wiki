@@ -1,3 +1,18 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.ssa.gov/benefits/retirement/social-security-fairness-act.html"
+  - "https://crsreports.congress.gov/product/pdf/IF/IF10203"
+  - "https://www.govexec.com/pay-benefits/2026/03/year-after-social-security-fairness-act-some-retirees-are-still-waiting-full-benefits/411908/"
+  - "https://www.iaff.org/news/the-wep-gpo-have-been-repealed-now-what/"
+  - "https://massretirees.com/wepgpo-explained/"
+  - "https://www.ssa.gov/policy/docs/program-explainers/windfall-elimination-provision.html"
+  - "https://bipartisanpolicy.org/explainer/wep-gpo/"
+  - "https://www.fedsmith.com/2026/02/25/what-elimination-of-wep-gpo-means-for-your-income-and-taxes/"
+---
+
 # WEP / GPO（已于 2025 年废除）
 
 **收集日期：** 2026-04-16

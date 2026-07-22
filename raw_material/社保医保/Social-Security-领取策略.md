@@ -1,3 +1,17 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.ssa.gov/benefits/retirement/planner/delayret.html"
+  - "https://www.ssa.gov/benefits/retirement/planner/agereduction.html"
+  - "https://www.ssa.gov/benefits/retirement/planner/1960-delay.html"
+  - "https://247wallst.com/investing/2026/03/22/here-are-the-maximum-social-security-benefits-at-ages-62-67-and-70-in-2026-and-how-to-get-closer-to-them/"
+  - "https://www.kiplinger.com/article/retirement/t051-c001-s003-boost-social-security-benefit-when-you-delay.html"
+  - "https://www.gobankingrates.com/retirement/social-security/social-security-recipients-will-lose-this-much-by-claiming-at-62-instead-of-70-in-2026/"
+  - "https://smartasset.com/retirement/social-security-early-retirement-penalty-chart"
+---
+
 # Social Security 领取策略（62/67/70）
 
 **收集日期：** 2026-04-16

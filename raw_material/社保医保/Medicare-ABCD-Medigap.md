@@ -1,3 +1,18 @@
+---
+freshness: annual
+valid_until: 2026-12-31
+collected: 2026-04-16
+source_url:
+  - "https://www.cms.gov/newsroom/fact-sheets/2026-medicare-parts-b-premiums-deductibles"
+  - "https://www.medicare.gov/health-drug-plans/medigap/basics/compare-plan-benefits"
+  - "https://www.medicare.gov/publications/02110-medigap-guide-health-insurance.pdf"
+  - "https://www.kiplinger.com/retirement/medicare/what-you-will-pay-for-medicare-in-2026"
+  - "https://www.humana.com/medicare/medicare-resources/medicare-part-a-b-c-d-cost"
+  - "https://www.medicareresources.org/faqs/what-kind-of-medicare-benefit-changes-can-i-expect-this-year/"
+  - "https://www.medicareresources.org/medicare-benefits/medigap/"
+  - "https://thebig65.com/medicare-premiums-costs-2026/"
+---
+
 # Medicare Part A/B/C/D + Medigap
 
 **收集日期：** 2026-04-16
