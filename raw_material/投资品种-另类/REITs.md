@@ -1,3 +1,18 @@
+---
+freshness: annual
+valid_until: "2026-12-31"
+collected: 2026-04-16
+source_url:
+  - "https://www.irs.gov/instructions/i1120rei"
+  - "https://turbotax.intuit.com/tax-tips/investments-and-taxes/tax-tips-for-real-estate-investment-trusts/L0tW3ad6C"
+  - "https://www.fool.com/investing/stock-market/market-sectors/real-estate-investing/reit/"
+  - "https://www.reit.com/investing/investing-reits/taxes-reit-investment"
+  - "https://www.1031crowdfunding.com/qualified-reit-dividends/"
+  - "https://www.simplysafedividends.com/intelligent-income/posts/18-a-short-lesson-on-reit-taxation"
+  - "https://www.dividend.com/dividend-education/the-complete-guide-to-reit-taxes/"
+  - "https://www.fool.com/investing/stock-market/market-sectors/real-estate-investing/reit/high-dividend-reits/"
+---
+
 # REITs（Real Estate Investment Trusts，房产信托）
 
 **收集日期：** 2026-04-16

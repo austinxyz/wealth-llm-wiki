@@ -1,3 +1,23 @@
+---
+freshness: volatile
+valid_until: "2026-10-16"
+collected: 2026-04-16
+source_url:
+  - "https://www.irs.gov/filing/digital-assets"
+  - "https://tokentax.co/blog/bitcoin-etfs-tax"
+  - "https://coinledger.io/blog/how-are-bitcoin-etfs-taxed"
+  - "https://www.vaneck.com/us/en/blogs/digital-assets/bitcoin-taxes-explained-what-investors-need-to-know-in-2026/"
+  - "https://www.etf.com/sections/etf-basics/how-are-bitcoin-etfs-taxed-what-investors-need-know"
+  - "https://greentradertax.com/spot-bitcoin-etps-etfs-and-wash-sale-rules-property-or-securities/"
+  - "https://www.blackrock.com/us/financial-professionals/investments/products/bitcoin-investing"
+  - "https://www.fool.com/coverage/etfs/2026/04/03/gold-prices-are-on-the-move-is-gld-or-iau-the-better-etf-pick/"
+  - "https://www.fool.com/investing/stock-market/market-sectors/materials/gold-stocks/gold-etfs/"
+  - "https://www.etf.com/sections/etf-basics/gold-etfs-explained-what-investors-should-know-about-gld-gldm-iau-and-iuam"
+  - "https://www.mezzi.com/blog/gld-vs-iau-total-return-tracking-difference-expense-ratio"
+  - "https://etfdb.com/tool/etf-comparison/GLD-IAU/"
+  - "https://intellectia.ai/blog/best-gold-etf-to-buy-2026"
+---
+
 # Crypto + Gold + Commodities（另类资产）
 
 **收集日期：** 2026-04-16

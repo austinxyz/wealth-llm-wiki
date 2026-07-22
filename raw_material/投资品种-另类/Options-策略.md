@@ -1,3 +1,20 @@
+---
+freshness: volatile
+valid_until: "2026-10-16"
+collected: 2026-04-16
+source_url:
+  - "https://quantwheel.com/learn/wheel-strategy/"
+  - "https://www.schwab.com/learn/story/three-things-to-know-about-wheel-strategy"
+  - "https://www.optionsplay.com/blogs/what-is-the-wheel-strategy-in-options-trading"
+  - "https://www.optionstrading.org/blog/the-wheel-strategy-explained/"
+  - "https://www.indexbox.io/blog/the-wheel-options-strategy-explained-for-income-and-stock-accumulation/"
+  - "https://www.wheelyield.com/articles/cash-secured-put-guide/"
+  - "https://www.daystoexpiry.com/blog/wheel-strategy-guide"
+  - "https://www.optionseducation.org/news/june-webinar-takeaways"
+  - "https://www.investingwithai.com/wheel-strategy-options-income-guide/"
+  - "https://optionspilot.app/"
+---
+
 # Options 策略（Covered Call / Cash-Secured Put / Wheel / Risk Reversal）
 
 **收集日期：** 2026-04-16

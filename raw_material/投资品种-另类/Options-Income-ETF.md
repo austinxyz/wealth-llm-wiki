@@ -1,3 +1,10 @@
+---
+freshness: volatile
+valid_until: "2026-11-18"
+collected: 2026-05-18
+source_url: []
+---
+
 # 期权收益 ETF（Options Income ETF）
 
 **收集日期：** 2026-05-18
