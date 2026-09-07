@@ -18,6 +18,7 @@ status: stable
 - [[wiki/保险规划/Whole-Life|Whole Life]] — 深度机制：保证现金价值 vs 分红、Mutual vs Stock、保单贷款、MEC 7-pay、Infinite Banking 争议
 - [[Umbrella保险]] — 保额 ≥ 净资产；$200-500/年/$1M；必须买人群清单
 - [[长护险]] — 70% 65+ 需护理；传统/Hybrid/自担；50-60 岁是最佳窗口
+- [[VUL]] — 现金价值直接投资子账户，无 Floor 无 Cap；双层费用 + lapse 风险最高；受 SEC 证券监管
 - [[COBRA]] — 18-36 月过渡健保；60 天窗口期；vs ACA 决策表
 
 ## Dataview 查询
