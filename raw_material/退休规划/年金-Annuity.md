@@ -1,11 +1,12 @@
 ---
 title: 年金（Annuity）全景调研
-collected: 2026-07-22
+collected: 2026-09-06
 source_url:
   - https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-5
   - https://www.investor.gov/introduction-investing/investing-basics/glossary/variable-annuity-surrender-charges
   - https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-investor-bulletin-indexed-annuities
   - https://www.investor.gov/introduction-investing/investing-basics/glossary/registered-index-linked-annuity-rila
+  - https://www.investor.gov/introduction-investing/investing-basics/glossary/registered-market-value-adjustment-mva-annuity
   - https://www.finra.org/investors/investing/investment-products/annuities
   - https://www.finra.org/rules-guidance/key-topics/variable-annuities
   - https://www.finra.org/investors/insights/exchange-variable-annuity
@@ -13,8 +14,14 @@ source_url:
   - https://www.irs.gov/pub/irs-drop/n-03-51.pdf
   - https://www.insurance.ca.gov/0150-seniors/0600informationguides/Informing-Senior.cfm
   - https://www.insurance.ca.gov/0150-seniors/0600informationguides/upload/Annuities_Bro_Dx-linked.pdf
+  - https://www.thrivent.com/insights/annuities/what-is-a-qualified-longevity-annuity-contract-qlac
+  - https://blog.massmutual.com/retiring-investing/what-is-a-qlac
+  - https://www.kitces.com/blog/strategies-for-existing-variable-annuities-with-glwb-or-gmib-riders/
+  - https://www.annuity.org/annuities/riders/gmwb/
+  - https://www.annuity.org/annuities/riders/gmib/
+  - https://www.annuity.org/annuities/rates/market-value-adjustment/
 freshness: volatile
-valid_until: 2027-01-22
+valid_until: 2027-03-06
 tax_year: 2026
 ---
 
@@ -34,37 +41,77 @@ tax_year: 2026
 - 一次性缴纳保费后，通常在 1 个月至 1 年内开始领取定期收入
 - 机制最简单：把一笔钱换成终身或固定期限的现金流，类似"自制养老金"
 - 无投资账户、无现金价值累积，一旦购买流动性几乎为零（多数不可撤销）
+- **Payout Rate 的计算方式**：保险公司根据购买时的年龄、性别、利率环境和精算生命表定价，payout rate（年领取额 ÷ 保费）不是"投资回报率"，而是本金返还 + 精算死差益（长寿风险共担）+ 少量利息的混合体；年龄越大、payout rate 越高（因预期领取期越短）
+  - 示例（2026 年利率环境，来源综合行业报价）：65 岁男性用 $100,000 购买 life-only SPIA，约得每月 $633；同龄女性因预期寿命更长，约得每月 $600
+- **Life Only vs Period Certain**：
+  - **Life Only（纯终身）**：payout 最高，但受益人死亡后立即停止支付，若早逝则"血本无归"（对遗产而言）
+  - **Period Certain（保证期）**：保证支付 10/15/20 年等最低期限，若受益人在保证期内身故，剩余期限的payout转给指定受益人；比 life-only payout 略低，是"用一部分终身收益换取遗产保障"的折中方案
+  - **Joint & Survivor / Cash Refund** 等变体进一步降低月领取额以换取配偶保障或本金返还担保
+- **通胀调整版本（COLA / Inflation-Adjusted SPIA）**：可选每年按固定比例（如 2%-3%）或 CPI 挂钩递增payout，但初始月领取额显著低于不调整版本（同样保费下，通胀调整版可能比固定payout版低 20%-30%），是"用当期现金流换未来购买力保护"的取舍
 
 **DIA（Deferred Income Annuity，递延收入年金，又称 Longevity Annuity）**
 - 缴纳保费后约定未来某个日期（通常退休后多年，甚至 80-85 岁）才开始领取
 - 因递延期长，用较小保费换取较大的未来收入，常被用作"长寿保险"（对冲活到很老没钱的尾部风险）
 - QLAC（Qualified Longevity Annuity Contract）是 DIA 在合格退休账户（IRA/401k）内的特殊形式，允许延迟 RMD
+  - **2026 年额度上限**：单人 **$210,000**（SECURE 2.0 取消了原先"账户余额 25%"的百分比上限，改为纯美元上限 $200,000 起，逐年通胀调整；2026 年调整为 $210,000）；夫妻可各自购买，合计最高 **$420,000**
+  - **RMD 豁免机制**：用于购买 QLAC 的资金在收入开始支付前，**不计入**计算 RMD 的账户余额基数，从而降低 72/73 岁起的强制提款额和当年应税所得
+  - 收入开始日期可在购买时选定，最晚不超过 **85 岁**；一旦开始支付，QLAC 部分按正常年金收入纳税（qualified 年金整笔应税）
+  - 适用场景：预期长寿（家族史、健康状况良好）、希望压低早期 RMD 从而管理 IRMAA/税阶的退休人群
 
 ### 2. 按增值机制分类（递延年金 Deferred Annuity）
 
 **固定年金（Fixed Annuity）**
 - 保险公司承诺一个固定利率（类似 CD），保底不亏本金
 - 机制最简单透明，费用最低，但收益通常落后通胀
+- **保证利率机制**：合同通常分两段——首个合同年（或前几年）的"初始保证利率"（往往较高，用于吸引投保）+ 之后年份的"最低保证利率"（合同期内不会低于此，但保险公司可自行下调续保利率至最低线之上）；MYGA（Multi-Year Guaranteed Annuity）则是在整个约定期限（如 3/5/7 年）内锁定同一固定利率，类似"年金版 CD"
+- **MVA（Market Value Adjustment，市场价值调整）条款**：部分固定年金（尤其 MYGA）附带 MVA，若在退保期内提前大额提取或全额退保，会根据当前利率环境与购买时利率的差异调整提取金额
+  - 若当前利率**高于**购买时利率 → 债券价值下跌 → 提取金额可能被**向下调整**（负 MVA）
+  - 若当前利率**低于**购买时利率 → 提取金额可能被**向上调整**（正 MVA），对提前退出者反而有利
+  - 只要提取金额在合同允许的免费提取额度内（通常每年 10%），一般不触发 MVA；MVA 只在超额提取或全额退保时生效
+  - 无 MVA 条款的固定年金通常费率略低，是"用一定的提前退出风险换取略高保证利率"的取舍（来源：investor.gov MVA glossary）
+- **适用场景**：追求保本、需要比银行 CD 略高且税收递延的固定收益、不需要短期流动性的资金；**不适用场景**：需要保留流动性应对未知支出、利率上升周期中锁定长期低利率（会错过后续更高利率的机会成本）
 
 **变额年金（Variable Annuity, VA）**
 - 保费投资于类似共同基金的"子账户"（sub-accounts），账户价值随市场波动
 - 本金无保底（可亏损），可附加各种 rider（保证收益/保证提取/保证身故）
 - 是 SEC 注册证券，销售需持证券牌照，需提供招股说明书（prospectus）
 - 来源：FINRA "Variable Annuities" key topic page
+- **Sub-account 费用**：子账户本身收取类似共同基金的费用率（Expense Ratio），典型 0.5%-1.5%/年，叠加在 M&E 和管理费之上（见下文费用结构表），部分子账户还有其独立的 12b-1 销售费用
+- **Living Benefit Riders（生前给付保证条款）及额外费用**：
+  - **GLWB/GMWB（Guaranteed Lifetime/Minimum Withdrawal Benefit，保证终身/最低提取收益）**：保证投保人每年可提取账户"保证基数"的固定比例（不管账户实际市值涨跌），即使账户价值跌到零，仍可按约定比例继续领取直至身故；典型年费 **0.5%-1%**
+  - **GMIB（Guaranteed Minimum Income Benefit，保证最低收入收益）**：保证一个最低的未来年金化收入水平，但必须先把账户"annuitize"（转为定期收入流）才能触发该保证；典型年费可达 **1%-1.5%**，通常比 GLWB 更贵且触发条件更苛刻（必须放弃账户余额换取收入流）
+  - 叠加 living benefit rider 后，变额年金**总费用可达约 3%/年**（M&E + 管理费 + 基金费用 + rider 费用），侵蚀长期回报显著
+  - 来源：Kitces "Strategies For GLWB & GMIB Annuity Riders"；annuity.org GMWB/GMIB 条款说明
+- **Surrender Schedule 典型结构**：退保期通常 6-10 年，退保费比例逐年递减（例如：Y1 8% → Y2 7% → Y3 6% → … → Y8 1% → Y9+ 0%），多数合同允许每年免费提取账户价值的 10%（不受退保费影响）
+- **适用场景**：已用满税收优惠账户额度、希望税收递延的市场化增值 + 愿意为保证收益支付额外费用买"安心"的投资者；**不适用场景**：对费用敏感、可以自行构建低成本指数基金组合并自我管理提取比例（如 4% rule）的投资者——rider 提供的保证在长期费用侵蚀下往往不划算
 
 **固定指数年金（Fixed Indexed Annuity, FIA / Equity-Indexed Annuity）**
 - 收益与某个股票指数（如 S&P 500）挂钩，但设有 Cap（收益上限）、Participation Rate（参与率）、Spread（费用率）等限制
 - 本金通常有 0% 保底（指数跌时不亏本金，但也不参与股息）
 - FIA 本身不是证券，销售人员只需保险牌照（不需要证券牌照），这也是争议点之一
+- **三种限制机制的区别**（可单独或组合使用）：
+  - **Cap Rate（收益上限）**：设定一个封顶百分比，无论指数涨多少，入账收益不超过 Cap；例：Cap 7%，指数涨 12%，仍只入账 7%
+  - **Participation Rate（参与率）**：只把指数涨幅的一定比例计入账户；例：参与率 75%，指数涨 10%，实际入账 7.5%（10% × 75%）——与 Cap 的区别在于参与率是"按比例打折"，没有绝对封顶（除非同时叠加 Cap）
+  - **Spread/Margin/Asset Fee（价差/边际费用）**：从指数涨幅中直接扣除一个固定百分点后再计入账户；例：指数涨 10%，spread 3.5%，实际入账 6.5%——与参与率的区别在于 spread 是"减法"，参与率是"乘法"，低涨幅年份 spread 的相对侵蚀更大（涨幅低于 spread 时甚至可能倒扣为 0，但本金仍保底不亏）
+  - 部分合同**组合使用**两种或三种机制（如同时设参与率和 Cap），进一步压缩实际到手收益
+- **常见 index 挂钩方式**：传统市值加权指数（S&P 500 Price Return，通常不含股息）、波动率控制指数（Volatility-Controlled Index，人为平滑波动以支撑更高参与率/Cap 报价，但长期表现可能跑输原始指数）、多资产/另类策略指数（保险公司自研指数，历史回测数据有限，透明度较低，需格外警惕）
 - 参与率示例（来源 FINRA）：参与率 75%，指数涨 10%，实际入账 7.5%（10% × 75%）
 - Cap 示例：Cap 为 7%，指数涨 12%，仍只入账 7%
 - **关键警示（FINRA）**：部分 EIA 合同允许发行方在合同存续期内（通常每年或每个合同期开始时）单方面调整参与率、Cap、Spread，投资者应向发行方确认"保证最低参与率"（合同期内不可更改的下限）
+- **适用场景**：追求"保本 + 部分市场参与"、能接受上行收益被大幅压缩以换取 0% 下跌保底的保守投资者；**不适用场景**：追求指数全部回报（含股息）的投资者、无法理解保险公司自研指数机制的投资者
 
 **RILA（Registered Index-Linked Annuity，注册指数关联年金，又称 Structured Annuity/Buffer Annuity）**
 - 与股票指数挂钩，但设有 Buffer（缓冲，吸收前 10%-20% 的指数下跌）或 Floor（保底，锁定最大亏损比例，如 -10%）
 - 与 FIA 的关键区别：RILA 本金**可能亏损**（超过 buffer/floor 部分），是 SEC 注册证券，需证券牌照销售
 - 保护越多（buffer 越大/floor 越浅），上行 Cap 越低；反之接受更多下行风险可换取更高上限
 - 来源：investor.gov RILA glossary
+- **Buffer vs Floor 机制区别**（来源：annuityexpertadvice.com、行业资料交叉印证）：
+  - **Buffer（缓冲）**：保险公司吸收指数下跌的**前**一部分（如前 10%），超过部分全部由投保人承担；例：10% buffer，指数跌 25%，投保人承担剩余 15% 的亏损
+  - **Floor（保底）**：投保人承担下跌的**前**一部分，达到保底线后保险公司承担超出部分；例：-10% floor，指数跌 30%，投保人只承担 10% 亏损，保险公司吸收剩余 20%
+  - 直觉对比：小幅下跌时 buffer 对投保人更有利（前段完全不亏），大幅下跌（黑天鹅）时 floor 提供更明确的"最大亏损上限"保护
+  - Buffer 型合同通常搭配更高的 Cap/参与率（因为保险公司只在有限下跌区间内兜底）；floor 型则在极端行情下更可预期
+- **RILA 与 FIA 的核心区别再总结**：FIA 本金 0% 保底（不是证券，只需保险牌照），RILA 本金可能亏损（是 SEC 注册证券，需证券牌照+招股说明书），RILA 用"部分保本"换取比 FIA 更高的上行 Cap/参与率——本质是风险收益曲线上更靠近 VA 一侧的产品
+- **适用场景**：能承受有限本金亏损、追求比 FIA 更高上行空间、认可"部分保护好过完全无保护"逻辑的投资者；**不适用场景**：需要绝对本金保底（应选固定年金/FIA）、无法承受任何账户价值波动的投资者
 
 ---
 
@@ -187,3 +234,10 @@ tax_year: 2026
 - [IRS Notice 2003-51 - Section 1035 Certain Exchanges of Insurance Policies](https://www.irs.gov/pub/irs-drop/n-03-51.pdf)
 - [California Department of Insurance - Informing Seniors](https://www.insurance.ca.gov/0150-seniors/0600informationguides/Informing-Senior.cfm)
 - [California Department of Insurance - Annuities Brochure (Index-linked)](https://www.insurance.ca.gov/0150-seniors/0600informationguides/upload/Annuities_Bro_Dx-linked.pdf)
+- [SEC investor.gov - Registered Market Value Adjustment (MVA) Annuity glossary](https://www.investor.gov/introduction-investing/investing-basics/glossary/registered-market-value-adjustment-mva-annuity)
+- [Thrivent - What is A QLAC? Understanding Qualified Longevity Annuity Contracts](https://www.thrivent.com/insights/annuities/what-is-a-qualified-longevity-annuity-contract-qlac)
+- [MassMutual - How a QLAC can balance retirement needs with required distribution rules](https://blog.massmutual.com/retiring-investing/what-is-a-qlac)
+- [Kitces - Strategies For GLWB & GMIB Annuity Riders](https://www.kitces.com/blog/strategies-for-existing-variable-annuities-with-glwb-or-gmib-riders/)
+- [Annuity.org - How Guaranteed Minimum Withdrawal Benefit (GMWB) Works](https://www.annuity.org/annuities/riders/gmwb/)
+- [Annuity.org - How Guaranteed Minimum Income Benefit (GMIB) Rider Works](https://www.annuity.org/annuities/riders/gmib/)
+- [Annuity.org - Market Value Adjustment (MVA) in Annuities: How It Works](https://www.annuity.org/annuities/rates/market-value-adjustment/)
