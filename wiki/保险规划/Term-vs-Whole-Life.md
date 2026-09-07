@@ -91,6 +91,7 @@ freshness: volatile
 - [[Revocable-Living-Trust]]：Term Life 受益人可设为 Trust
 - [[Beneficiary-Designation]]：保单受益人设定技巧
 - [[Asset-Location]]：Buy Term + Invest the Difference 的投资部分如何配置
+- [[wiki/保险规划/Whole-Life|Whole Life 深度机制]]：更详细的 Whole Life 机制（保证现金价值 vs 分红、保单贷款、MEC 7-pay、Infinite Banking 争议）见此条目
 
 ## 参考来源
 

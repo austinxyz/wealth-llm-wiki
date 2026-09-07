@@ -15,6 +15,7 @@ status: stable
 - [[保险优先级]] — 三层金字塔：基础保障/资产保护/可选；六大原则；加州高净值参考组合
 - [[Own-Occupation失能险]] — 25%成人会失能；Own-Occ vs Any-Occ；团体 vs 个人；月薪 60-70% 保额
 - [[Term-vs-Whole-Life]] — Buy Term Invest the Difference；DIME 法算保额；Whole Life 极少数场景
+- [[wiki/保险规划/Whole-Life|Whole Life]] — 深度机制：保证现金价值 vs 分红、Mutual vs Stock、保单贷款、MEC 7-pay、Infinite Banking 争议
 - [[Umbrella保险]] — 保额 ≥ 净资产；$200-500/年/$1M；必须买人群清单
 - [[长护险]] — 70% 65+ 需护理；传统/Hybrid/自担；50-60 岁是最佳窗口
 - [[COBRA]] — 18-36 月过渡健保；60 天窗口期；vs ACA 决策表
