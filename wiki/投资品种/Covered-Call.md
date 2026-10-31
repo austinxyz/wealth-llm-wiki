@@ -5,7 +5,7 @@ tags: [期权, Covered-Call, 收入策略]
 source: "[[raw_material/投资品种-另类/Options-策略]]"
 updated: 2026-05-18
 status: stable
-freshness: volatile
+freshness: evergreen
 ---
 
 ## 定义

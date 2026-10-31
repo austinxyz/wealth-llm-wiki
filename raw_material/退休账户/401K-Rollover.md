@@ -1,8 +1,8 @@
 ---
 title: "401K Rollover（401K 转出规则）"
 freshness: volatile
-valid_until: 2026-10-16
-collected: 2026-04-16
+valid_until: 2027-04-30
+collected: 2026-10-30
 source_url:
   - "https://www.irs.gov/retirement-plans/plan-participant-employee/rollovers-of-retirement-plan-and-ira-distributions"
   - "https://www.irs.gov/taxtopics/tc413"

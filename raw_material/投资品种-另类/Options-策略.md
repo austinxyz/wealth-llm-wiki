@@ -1,8 +1,8 @@
 ---
 title: "Options 策略（Covered Call / Cash-Secured Put / Wheel / Risk Reversal）"
-freshness: volatile
-valid_until: "2026-10-16"
-collected: 2026-04-16
+freshness: evergreen
+valid_until: ""
+collected: 2026-10-30
 source_url:
   - "https://quantwheel.com/learn/wheel-strategy/"
   - "https://www.schwab.com/learn/story/three-things-to-know-about-wheel-strategy"

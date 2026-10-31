@@ -1,8 +1,8 @@
 ---
 title: "FATCA（境外账户税务合规法案）"
 freshness: volatile
-valid_until: 2026-10-16
-collected: 2026-04-16
+valid_until: 2027-04-30
+collected: 2026-10-30
 source_url:
   - "https://www.irs.gov/businesses/corporations/foreign-account-tax-compliance-act-fatca"
   - "https://www.irs.gov/businesses/corporations/summary-of-fatca-reporting-for-us-taxpayers"
